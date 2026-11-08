@@ -1,0 +1,710 @@
+{
+  "Components": {
+    "UtilityInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 4,
+        "Items": {}
+      },
+      "ActiveSlot": -1
+    },
+    "EffectController": {},
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "AbilitySlotsInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 6,
+        "Items": {}
+      }
+    },
+    "Transform": {
+      "Position": {
+        "X": 272.6227111816406,
+        "Y": 107.96797943115234,
+        "Z": -344.70220947265625
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 41.128936767578125,
+        "Roll": 0.0
+      }
+    },
+    "StorageInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 36,
+        "Items": {
+          "0": {
+            "Id": "ExamplePrefabPlacementBlock_Tree",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "33": {
+            "Id": "Metal_Goblin_Iron_Pipe_Large_Glowy_Corner",
+            "Quantity": 50,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "29": {
+            "Id": "Deco_Rope",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "25": {
+            "Id": "Furniture_Village_Crate",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "Fluid_Poison",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "12": {
+            "Id": "Portal_Device",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "13": {
+            "Id": "Build_Grey_Fence",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "8": {
+            "Id": "EditorTool_Paint",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "Metadata": {
+              "ToolData": {
+                "builtin_Height": 2,
+                "builtin_Width": 65,
+                "builtin_Material": "Build_GreyDark_Cube",
+                "builtin_Thickness": 1,
+                "builtin_Spacing": 0,
+                "builtin_RotationFace": "Up",
+                "builtin_Density": 100,
+                "builtin_Shape": "Sphere",
+                "builtin_Origin": "Center"
+              }
+            },
+            "OverrideDroppedItemAnimation": false
+          },
+          "9": {
+            "Id": "Cloth_Roof_White",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "30": {
+            "Id": "Build_Lightsource_Red",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "28": {
+            "Id": "Furniture_Goblin_Sign",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "24": {
+            "Id": "Wood_Hardwood_Stairs",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "18": {
+            "Id": "EditorTool_Entity",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "26": {
+            "Id": "Furniture_Temple_Light_Statue",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "16": {
+            "Id": "Metal_Goblin_Iron_Pipe_Large_Glowy",
+            "Quantity": 50,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "17": {
+            "Id": "Cloth_Roof_White",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "19": {
+            "Id": "Furniture_Lumberjack_Sign",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "23": {
+            "Id": "Cloth_Block_Wool_White",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "22": {
+            "Id": "Tool_Hookshot",
+            "Quantity": 1,
+            "Durability": 60.0,
+            "MaxDurability": 60.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "21": {
+            "Id": "Furniture_Goblin_Statue_Graffiti",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "35": {
+            "Id": "Rock_Gold_Brick_Smooth_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "Scrap_Hook",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "6": {
+            "Id": "Furniture_Goblin_Candle",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "27": {
+            "Id": "EditorTool_PrefabEditing_SelectPrefab",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "15": {
+            "Id": "Metal_Goblin_Iron_Pipe_Large_Glowy_Mouthpiece",
+            "Quantity": 50,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "31": {
+            "Id": "Furniture_Goblin_Brazier",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "11": {
+            "Id": "Deco_Trash_Pile_Small",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "10": {
+            "Id": "Build_GreyDark_Fence",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "32": {
+            "Id": "Build_Grey_Stairs",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Deco_Rope",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "34": {
+            "Id": "EditorTool_PrefabEditing_SelectPrefab",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "7": {
+            "Id": "Cloth_Roof_White_Flat",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Furniture_Goblin_Brazier",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      }
+    },
+    "HitboxCollision": {
+      "Version": 1,
+      "HitboxCollisionConfigId": "SoftCollision"
+    },
+    "Instance": {
+      "ReturnStack": []
+    },
+    "UUID": {
+      "UUID": {
+        "$binary": "GkK05mH1Q3O4rVwWNnoASw==",
+        "$type": "04"
+      }
+    },
+    "RuneBagInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 50,
+        "Items": {}
+      }
+    },
+    "ArmorInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 4,
+        "Items": {}
+      }
+    },
+    "Nameplate": {
+      "Text": "PhantomPaint"
+    },
+    "BackpackInventory": {
+      "Inventory": {
+        "Id": "Empty"
+      }
+    },
+    "ToolInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 23,
+        "Items": {
+          "0": {
+            "Id": "EditorTool_Paint",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "EditorTool_Selection",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "EditorTool_Line",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "EditorTool_Sculpt",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "EditorTool_Paste",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "EditorTool_Layers",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      },
+      "ActiveSlot": -1
+    },
+    "UIComponentList": {},
+    "HotbarInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 9,
+        "Items": {
+          "0": {
+            "Id": "EditorTool_Selection",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "6": {
+            "Id": "Build_GreyDark_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "Build_Grey_Cube",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "8": {
+            "Id": "Build_GreyLight_Cube",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Rock_Gold_Brick_Smooth",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "Build_Grey_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "7": {
+            "Id": "Build_GreyLight_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Build_GreyDark_Cube",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      },
+      "ActiveSlot": 2
+    },
+    "BuilderTools": {
+      "SelectionHistory": true,
+      "LastSavePack": "PhantomPaint:Goblin Circus"
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": -2.902604009013184E-104,
+        "Y": 5.947834221600354E-171,
+        "Z": -5.933429447321558E-104
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "GkK05mH1Q3O4rVwWNnoASw==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "ActiveHotbarSlot": 0,
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": -1
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "GoblinCircus",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": 1789.3514404296875,
+              "Y": 121.5,
+              "Z": -179.35995483398438,
+              "Pitch": -0.3410000205039978,
+              "Yaw": -1.0898898839950562,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [],
+            "UserMarkers": []
+          },
+          "prefabEditor-PhantomPaint": {
+            "LastPosition": {
+              "X": 0.09086841344833374,
+              "Y": 60.20400619506836,
+              "Z": -2.7500126361846924,
+              "Pitch": -0.8632960915565491,
+              "Yaw": -2.2533109188079834,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [],
+            "UserMarkers": []
+          },
+          "GoblinCircus": {
+            "LastPosition": {
+              "X": 146.23016357421875,
+              "Y": 93.28775024414062,
+              "Z": -294.4414367675781,
+              "Pitch": -1.5576964616775513,
+              "Yaw": -3.097618341445923,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "RespawnPoints": [],
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-c0e2688d-13fe-4f7b-8e6a-145f8aaeab51",
+                "Transform": {
+                  "X": 0.0,
+                  "Y": -50.87593078613281,
+                  "Z": 0.0,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 0
+              }
+            ],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "CreativeHub",
+          "Zone1_Spawn"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "wTQDtmeyR2iRLhOHvB0OMg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "fEi0Oix1Rkqht594RrHE9Q==",
+            "$type": "04"
+          },
+          {
+            "$binary": "7M2vPfCNQay8h/l7fnVBRg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "zHsfTXs/QwWrTyNZkY0+Wg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "Z5aplqiqTmy/gFbJvWPo+Q==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "EditorTool_Selection",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "6": {
+                "Id": "Build_GreyDark_Half",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "Build_Grey_Cube",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "Build_GreyLight_Cube",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Rock_Gold_Brick_Smooth",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Build_Grey_Half",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "7": {
+                "Id": "Build_GreyLight_Half",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "5": {
+                "Id": "Build_GreyDark_Cube",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Creative"
+    },
+    "Invulnerable": {},
+    "UniqueItemUsages": {
+      "UniqueItemUsed": []
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 100.0
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 100.0
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 10.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "CreativeHub": {
+      "ParentHubWorldUuid": "d953dc05-a934-4cd2-861f-28d8e5c9111e"
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.7392969131469727,
+        "Yaw": -2.8452377319335938,
+        "Roll": 0.0
+      }
+    }
+  }
+}

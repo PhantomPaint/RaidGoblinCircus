@@ -1,0 +1,56 @@
+{
+  "WorldName": "prefabEditor-PhantomPaint",
+  "WorldArrivedFrom": "16dd8348-d57b-44c0-ac65-10c1fb730d5b",
+  "TransformArrivedFrom": {
+    "X": 5098.8837890625,
+    "Y": 168.0,
+    "Z": 4982.5,
+    "Pitch": 0.0,
+    "Yaw": 1.570796251296997,
+    "Roll": 0.0
+  },
+  "WorldCreatorUUID": "1a42b4e6-61f5-4373-b8ad-5c16367a004b",
+  "SpawnPoint": [
+    1,
+    56,
+    1
+  ],
+  "LoadedPrefabMetadata": [
+    {
+      "Path": "\\Server\\Prefabs\\GoblinCircus.prefab.json",
+      "MinPoint": [
+        -1,
+        54,
+        -1
+      ],
+      "MaxPoint": [
+        1,
+        56,
+        1
+      ],
+      "AnchorPoint": [
+        0,
+        55,
+        0
+      ],
+      "PastePosition": [
+        0,
+        55,
+        0
+      ],
+      "AnchorEntityUuid": "2d18c4d2-ddb9-3f35-80cc-3dc67ebe21af",
+      "AnchorEntityPosition": [
+        0,
+        55,
+        0
+      ],
+      "OriginalFileAnchor": [
+        0,
+        0,
+        0
+      ],
+      "Uuid": "434683b0-b613-4f41-b79d-850444ecef62",
+      "Dirty": true
+    }
+  ]
+}

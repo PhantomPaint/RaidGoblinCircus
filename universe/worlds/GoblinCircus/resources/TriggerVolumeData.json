@@ -1,0 +1,449 @@
+{
+  "Volumes": {
+    "a3d49b4b-b4dc-4ed6-b45b-46c15ab63ccf": {
+      "Position": {
+        "X": 7.5,
+        "Y": 2.0,
+        "Z": -133.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -4.5,
+          "Y": -1.0,
+          "Z": -5.0
+        },
+        "Max": {
+          "X": 4.5,
+          "Y": 1.0,
+          "Z": 5.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "Teleport",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Position": {
+            "X": 5.0,
+            "Y": 50.0,
+            "Z": -210.0
+          },
+          "World": "",
+          "ResetVelocity": true,
+          "RelativeToEntity": false,
+          "RelativeToVolume": false,
+          "UseRotation": false,
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Name": "tent_portal"
+    },
+    "a193ea7d-4942-4c7a-a3e5-62150ab531c3": {
+      "Position": {
+        "X": 8.0,
+        "Y": 26.5,
+        "Z": -118.0
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -13.0,
+          "Y": -3.5,
+          "Z": -1.0
+        },
+        "Max": {
+          "X": 13.0,
+          "Y": 3.5,
+          "Z": 1.0
+        }
+      },
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "",
+          "BlockState": "",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Origin": "VolumeOrigin",
+          "ReplaceMode": "Always",
+          "Rotation": "None",
+          "Pitch": "None",
+          "Roll": "None"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Name": "Circus_Entrance_Gauntlet"
+    },
+    "29ba6ba9-dcff-40ac-bdcb-268387a97473": {
+      "Position": {
+        "X": 5.5,
+        "Y": 40.5,
+        "Z": -243.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -1.5,
+          "Y": -0.5,
+          "Z": -1.5
+        },
+        "Max": {
+          "X": 1.5,
+          "Y": 0.5,
+          "Z": 1.5
+        }
+      },
+      "Effects": [
+        {
+          "Type": "SetVelocity",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Velocity": {
+            "X": 0.0,
+            "Y": 30.0,
+            "Z": 0.0
+          },
+          "Additive": true,
+          "RelativeMode": "Absolute"
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Name": "bouncepad_1"
+    },
+    "bcc8d109-3442-44a5-8b4a-1621b6cb145f": {
+      "Position": {
+        "X": 8.5,
+        "Y": 50.5,
+        "Z": -209.5
+      },
+      "Shape": {
+        "Type": "Box",
+        "Min": {
+          "X": -2.5,
+          "Y": -0.5,
+          "Z": -2.5
+        },
+        "Max": {
+          "X": 2.5,
+          "Y": 0.5,
+          "Z": 2.5
+        }
+      },
+      "Conditions": [
+        {
+          "Type": "TagCondition",
+          "Event": "ENTER",
+          "Source": "Self",
+          "TagKey": "Checkpoint",
+          "Comparison": "Exactly",
+          "CompareAgainst": "Value",
+          "TagValue": "Inactive",
+          "Inverted": false,
+          "MatchKey": "",
+          "MatchValue": "",
+          "Radius": 50.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "TagCondition",
+          "Event": "ENTER",
+          "Source": "Self",
+          "TagKey": "Checkpoint",
+          "Comparison": "Exactly",
+          "CompareAgainst": "Value",
+          "TagValue": "Disabled",
+          "Inverted": true,
+          "MatchKey": "",
+          "MatchValue": "",
+          "Radius": 50.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "TagCondition",
+          "Event": "SIGNAL_RECEIVED",
+          "Source": "Event",
+          "TagKey": "Checkpoint",
+          "Comparison": "Exactly",
+          "CompareAgainst": "Value",
+          "TagValue": "Disable",
+          "Inverted": false,
+          "MatchKey": "",
+          "MatchValue": "",
+          "Radius": 50.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "TagCondition",
+          "Event": "SIGNAL_RECEIVED",
+          "Entry": 1,
+          "Source": "Event",
+          "TagKey": "Checkpoint",
+          "Comparison": "Exactly",
+          "CompareAgainst": "Value",
+          "TagValue": "Reset",
+          "Inverted": false,
+          "MatchKey": "",
+          "MatchValue": "",
+          "Radius": 50.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "TagCondition",
+          "Event": "TICK",
+          "Entry": 1,
+          "Source": "Self",
+          "TagKey": "Checkpoint_Healing",
+          "Comparison": "Exactly",
+          "CompareAgainst": "Value",
+          "TagValue": "Yes",
+          "Inverted": false,
+          "MatchKey": "",
+          "MatchValue": "",
+          "Radius": 50.0,
+          "Center": "Volume"
+        }
+      ],
+      "Effects": [
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Dungeon_Checkpoint_Statue",
+          "BlockState": "Activating",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Origin": "VolumeOrigin",
+          "ReplaceMode": "Always",
+          "Rotation": "TwoSeventy",
+          "Pitch": "None",
+          "Roll": "None"
+        },
+        {
+          "Type": "PlaySound",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "SoundEvent": "SFX_Dungeon_Checkpoint_Activate",
+          "Location": "VolumeCenter",
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Type": "SetWorldSpawn",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Origin": "VolumeOrigin",
+          "Position": {
+            "X": -2.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Yaw": 115.0,
+          "ClearPlayerRespawnPoints": true
+        },
+        {
+          "Type": "ShowEventTitle",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "PrimaryTitle": "server.general.checkpoint.title",
+          "SecondaryTitle": "server.general.checkpoint.subtitle",
+          "Style": "Major",
+          "Duration": 3.5,
+          "FadeInDuration": 1.0,
+          "FadeOutDuration": 1.0,
+          "Recipient": "AllPlayers"
+        },
+        {
+          "Type": "SendSignal",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "MatchKey": "Checkpoint",
+          "MatchValue": "Active",
+          "Radius": 0.0,
+          "Center": "Volume",
+          "SignalKeys": [
+            "Checkpoint"
+          ],
+          "SignalValues": [
+            "Disable"
+          ]
+        },
+        {
+          "Type": "ModifyTags",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Operation": "Set",
+          "TagKey": "Checkpoint",
+          "TagValue": "Active",
+          "MatchKey": "Checkpoint",
+          "MatchValue": "",
+          "Radius": 5.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "ModifyTags",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Operation": "Set",
+          "TagKey": "Checkpoint_Healing",
+          "TagValue": "Yes",
+          "MatchKey": "Checkpoint",
+          "MatchValue": "",
+          "Radius": 5.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 8.5,
+          "BlockType": "Dungeon_Checkpoint_Statue",
+          "BlockState": "Active",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Origin": "VolumeOrigin",
+          "ReplaceMode": "Always",
+          "Rotation": "TwoSeventy",
+          "Pitch": "None",
+          "Roll": "None"
+        },
+        {
+          "Type": "ModifyTags",
+          "Event": "ENTER",
+          "Interval": 0.0,
+          "Delay": 8.5,
+          "Operation": "Set",
+          "TagKey": "Checkpoint_Healing",
+          "TagValue": "No",
+          "MatchKey": "Checkpoint",
+          "MatchValue": "",
+          "Radius": 5.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "SIGNAL_RECEIVED",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "BlockType": "Dungeon_Checkpoint_Statue",
+          "BlockState": "Disabled",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Origin": "VolumeOrigin",
+          "ReplaceMode": "Always",
+          "Rotation": "TwoSeventy",
+          "Pitch": "None",
+          "Roll": "None"
+        },
+        {
+          "Type": "ModifyTags",
+          "Event": "SIGNAL_RECEIVED",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Operation": "Set",
+          "TagKey": "Checkpoint",
+          "TagValue": "Disabled",
+          "MatchKey": "Checkpoint",
+          "MatchValue": "Active",
+          "Radius": 5.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "PlaceBlock",
+          "Event": "SIGNAL_RECEIVED",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Entry": 1,
+          "BlockType": "Dungeon_Checkpoint_Statue",
+          "BlockState": "Inactive",
+          "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Origin": "VolumeOrigin",
+          "ReplaceMode": "Always",
+          "Rotation": "TwoSeventy",
+          "Pitch": "None",
+          "Roll": "None"
+        },
+        {
+          "Type": "ModifyTags",
+          "Event": "SIGNAL_RECEIVED",
+          "Interval": 0.0,
+          "Delay": 0.0,
+          "Entry": 1,
+          "Operation": "Set",
+          "TagKey": "Checkpoint",
+          "TagValue": "Inactive",
+          "Radius": 5.0,
+          "Center": "Volume"
+        },
+        {
+          "Type": "EntityEffect",
+          "Event": "TICK",
+          "Interval": 0.25,
+          "Delay": 0.0,
+          "Entry": 1,
+          "Effect": "Dungeon_Checkpoint_Heal",
+          "Mode": "Apply",
+          "Duration": 0.5
+        }
+      ],
+      "TargetTypes": [
+        "Player"
+      ],
+      "Enabled": true,
+      "KeepLoaded": false,
+      "Tags": {
+        "Checkpoint": "Active",
+        "Checkpoint_Healing": "No"
+      },
+      "Name": "checkpoint_1"
+    }
+  }
+}

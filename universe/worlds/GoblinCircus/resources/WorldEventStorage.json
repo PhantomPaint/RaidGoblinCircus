@@ -1,0 +1,44 @@
+{
+  "Active": [
+    {
+      "UUID": "b7d9e3a1-6c24-4f5b-8e17-9a3d2c40b8f6",
+      "Asset": "Goblin_Breach_Prelude_Event",
+      "Stage": {
+        "Id": 0,
+        "Forks": [
+          {
+            "Conditions": [
+              {
+                "Type": "GameFlagLevelCondition",
+                "Result": false
+              }
+            ]
+          },
+          {
+            "Conditions": [
+              {
+                "Type": "TimeCondition",
+                "Complete": false
+              },
+              {
+                "Type": "IntervalCondition",
+                "RemainingSeconds": 0.0
+              }
+            ]
+          }
+        ]
+      },
+      "RepeatCount": -1,
+      "Transient": false,
+      "Context": [
+        {
+          "Key": "GoblinInitialBreachInterval",
+          "Context": {
+            "Type": "IntervalContext"
+          }
+        }
+      ]
+    }
+  ],
+  "Complete": []
+}

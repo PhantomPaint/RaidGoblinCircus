@@ -1,0 +1,1397 @@
+[2026/10/13 15:56:45   INFO]           [HytaleServer] Starting HytaleServer
+[2026/10/13 15:56:45   INFO]           [HytaleServer] Loading config...
+[2026/10/13 15:56:45   INFO]           [HytaleServer] Authentication mode: AUTHENTICATED
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Singleplayer mode, owner: PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Session token loaded from environment
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Identity token loaded from environment
+[2026/10/13 15:56:46   INFO]   [SessionServiceClient] Session Service client initialized for: https://sessions.hytale.com
+[2026/10/13 15:56:46   INFO]           [JWTValidator] JWKS pre-seeded from embedded resource (1 keys)
+[2026/10/13 15:56:46   INFO]           [JWTValidator] Identity token validated successfully for user PhantomPaint. Token: iss=https://sessions.hytale.com, sub=1a42b4e6-61f5-4373-b8ad-5c16367a004b, scope=hytale:server, iat=2026-10-13T15:56:45Z, exp=2026-10-13T16:56:45Z (+3599s), lifetime=3600s
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Identity token validated for PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:56:46   INFO]           [JWTValidator] Session token validated successfully. Token: iss=https://sessions.hytale.com, sub=1a42b4e6-61f5-4373-b8ad-5c16367a004b, scope=hytale:server, iat=2026-10-13T15:56:45Z, exp=2026-10-13T16:56:45Z (+3599s), lifetime=3600s
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Session token validated
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Auth mode: SINGLEPLAYER
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Token refresh scheduled in 3299 seconds
+[2026/10/13 15:56:46   INFO]      [ServerAuthManager] Server session ID: dd34f577-79ec-49c4-ae42-9370a94f1c86
+[2026/10/13 15:56:46   INFO]           [HytaleServer] Enabling Sentry
+[2026/10/13 15:56:47   INFO]           [HytaleServer] Booting up HytaleServer - Version: 0.7.0, Revision: 648ebf375a034beabf119d7d790cd11d4f665ff4
+[2026/10/13 15:56:47   INFO]           [HytaleServer] Setup phase...
+[2026/10/13 15:56:47   INFO]          [PluginManager] Loading pending core plugins!
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ConsoleModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:PermissionsModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:UpdateModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:LiveConfigModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:FlyCameraModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:AssetModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CommonAssetModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CosmeticsModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ServerManager
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:I18nModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ItemModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockTypeModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:LegacyModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockAnimationModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CollisionModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockSetModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:MigrationModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockHealthModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:PrefabSpawnerModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:TimeModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:AnchorActionModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:UIModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:InteractionModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:EntityModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:EntityStatsModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:EntityUIModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:DamageModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:SplitVelocity
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:StaminaModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:DebugPlugin
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ProjectileModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ServerPlayerListModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:VoiceModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:AccessControlModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:SingleplayerModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Universe
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:TelemetryModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ConnectedBlocksModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:DiscoveryModule
+[2026/10/13 15:56:47   INFO]          [PluginManager] Loading pending classpath plugins!
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:AssetEditor
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockSpawner
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockTick
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BlockPhysics
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:BuilderTools
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Crafting
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CommandMacro
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CompanionBlockSpawner
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:AugmentBlocks
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:GameFlags
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Instances
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:LANDiscovery
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPC
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPCObjectives
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ObjectiveReputation
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Objectives
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ObjectiveShop
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Path
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Reputation
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPCReputation
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Shop
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ShopReputation
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPCShop
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPCEditor
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Stash
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Beam
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:TagSet
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Teleport
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Fluid
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Weather
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:WorldGen
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Farming
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Camera
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Wilderness
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:WorldLocationCondition
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPCCombatActionEvaluator
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Model
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Mantling
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:SafetyRoll
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:SprintForce
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CrouchSlide
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:FallingBlocks
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Parkour
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Mounts
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:HytaleGenerator
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Teleporter
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Memories
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:GoblinLab
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Deployables
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Portals
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Beds
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:WorldEvents
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Ambience
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Audio
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:CreativeHub
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:RandomTick
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:ReactiveBlocks
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:TriggerVolumes
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Points
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Locate
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:EncounterManager
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:NPCKnockbackDebug
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Abilities
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Hytale:Rewards
+[2026/10/13 15:56:47   INFO]          [PluginManager] Loading pending plugins from directory: mods
+[2026/10/13 15:56:47   INFO]          [PluginManager] Loading pending plugins from directory: E:\Games\Hytale\UserData\Mods
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Alechilles:Alec's Tamework! from path Alec's Tamework! v2.16.1.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Alechilles:Alec's Tamework! (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Alechilles:Alec's Telemetry! from path Alec's Telemetry v1.0.3.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Alechilles:Alec's Telemetry! (Disabled by server config)
+[2026/10/13 15:56:47   WARN]         [PluginManifest] Manifest ServerVersion '2026.03.26-89796e57b' is in the pre-semver YYYY.MM.DD-<sha> format. Treated as wildcard for backward compatibility. Update to a SemverRange.
+[2026/10/13 15:56:47   INFO]          [PluginManager] - com.lol:DungeonCore from path DungeonCore-1.3.7.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod com.lol:DungeonCore (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - org.herolias:DynamicTooltipsLib from path DynamicTooltipsLib-1.6.1.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod org.herolias:DynamicTooltipsLib (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - com.zbeve:el-ophio from path el-ophio-1.3.0.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod com.zbeve:el-ophio (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Config:Endgame&QoL from path EndgameAndQoL5.3.0.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Config:Endgame&QoL (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Zbeve:EndlessEliteMobs from path endless-elite-mobs-2.6.12.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Zbeve:EndlessEliteMobs (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Airijko:EndlessFates from path EndlessFates-1.2.3.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Airijko:EndlessFates (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Airijko:EndlessGuilds from path EndlessGuilds-1.0.0-BETA-13.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Airijko:EndlessGuilds (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Airijko:EndlessLevelingCore from path EndlessLeveling-10.2.0.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Airijko:EndlessLevelingCore (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Airijko:EndlessRifts from path EndlessRifts-4.12.0.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Airijko:EndlessRifts (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - Ellie:HyUI from path HyUI-0.9.8-all.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod Ellie:HyUI (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - MAJOR76:MajorDungeons from path MajorDungeons-0.4.12.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod MAJOR76:MajorDungeons (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - org.herolias:SimpleEnchantments from path SimpleEnchantments-1.1.1.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod org.herolias:SimpleEnchantments (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - StarkyMods:Starky's Mjolnir from path Starky's Mjolnir 1.5.7.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod StarkyMods:Starky's Mjolnir (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - StarkyMods:Starky's Shield Captain America from path Starky's Shield Captain America 1.3.4.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod StarkyMods:Starky's Shield Captain America (Disabled by server config)
+[2026/10/13 15:56:47   INFO]          [PluginManager] - wanmine:WansWonderWeapon from path WansWonderWeapon-1.0.28.jar
+[2026/10/13 15:56:47   WARN]          [PluginManager] Skipping mod wanmine:WansWonderWeapon (Disabled by server config)
+[2026/10/13 15:56:48   INFO]          [PluginManager] - narwhals:Zephyr from path Zephyr-0.3.12.jar
+[2026/10/13 15:56:48   WARN]          [PluginManager] Skipping mod narwhals:Zephyr (Disabled by server config)
+[2026/10/13 15:56:48   INFO]             [Universe|P] Scheduled backup to run every 30 minute(s)
+[2026/10/13 15:56:48   INFO]       [TelemetryStorage] Opened telemetry session file: telemetry\2026-10-13_15-56-48_efee6998.jsonl
+[2026/10/13 15:56:48   INFO]       [TelemetryService] Telemetry service initialized with session ID: efee6998-f192-45ca-a8ff-831eaae43cfa
+[2026/10/13 15:56:48   INFO]      [ServerAuthManager] Server certificate set: CN=Hytale Server
+[2026/10/13 15:56:48   INFO]        [ServerManager|P] Took 111ms 647us 600ns to setup transport!
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|1.0
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Asset monitor enabled!
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Loaded pack: Hytale:Hytale from Assets.zip
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Loading packs from directory: mods
+[2026/10/13 15:56:48   WARN]          [AssetModule|P] Skipping pack at Hytale_HytaleGenerator: missing or invalid manifest.json
+[2026/10/13 15:56:48   WARN]          [AssetModule|P] Skipping pack at Hytale_Shop: missing or invalid manifest.json
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Loading packs from directory: E:\Games\Hytale\UserData\Mods
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Alechilles:Alec's Animal Husbandry!
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Alechilles:Alec's Tamework!
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Alechilles:Alec's Telemetry!
+[2026/10/13 15:56:48   WARN]          [AssetModule|P] Skipping pack at Common: missing or invalid manifest.json
+[2026/10/13 15:56:48   WARN]         [PluginManifest] Manifest ServerVersion '2026.03.26-89796e57b' is in the pre-semver YYYY.MM.DD-<sha> format. Treated as wildcard for backward compatibility. Update to a SemverRange.
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: com.lol:DungeonCore
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: com.zbeve:el-ophio
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Config:Endgame&QoL
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Zbeve:EndlessEliteMobs
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessFates
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessGuilds
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessLevelingCore
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessRifts
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: Ellie:HyUI
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: MAJOR76:MajorDungeons
+[2026/10/13 15:56:48   WARN]          [AssetModule|P] Skipping pack at manifest.json: missing or invalid manifest.json
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Loaded pack: PhantomPaint:Goblin Circus from PhantomPaint.Goblin Circus
+[2026/10/13 15:56:48   WARN]          [AssetModule|P] Skipping pack at Server: missing or invalid manifest.json
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: org.herolias:SimpleEnchantments
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: StarkyMods:Starky's Mjolnir
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: StarkyMods:Starky's Shield Captain America
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: wanmine:WansWonderWeapon
+[2026/10/13 15:56:48   INFO]          [AssetModule|P] Skipped disabled pack: narwhals:Zephyr
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|2.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|3.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|4.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|5.0
+[2026/10/13 15:56:48   INFO]        [ConsoleModule|P] Setup console with type: dumb
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|6.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|7.000000000000001
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|8.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|8.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|9.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|10.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|11.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|12.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|13.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|14.000000000000002
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|15.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|16.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|17.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|18.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|19.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|20.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|21.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|22.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|23.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|24.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|25.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|25.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|26.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|27.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|28.000000000000004
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|28.999999999999996
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|30.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|31.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|32.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|33.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|34.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|35.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|36.0
+[2026/10/13 15:56:50   INFO]           [I18nModule|P] Loaded 11135 bundled default translations from /bundledDefaults/server.lang
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|37.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|38.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|39.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|40.0
+[2026/10/13 15:56:50   INFO]       [TelemetryService] Telemetry enabled
+[2026/10/13 15:56:50   INFO]        [TelemetryModule] Server telemetry is enabled
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|41.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|42.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|42.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|43.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|44.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|45.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|46.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|47.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|48.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|49.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|50.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|51.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|52.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|53.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|54.0
+[2026/10/13 15:56:50   INFO]          [VoiceModule|P] [Voice] Registered voice stream handler
+[2026/10/13 15:56:50   INFO]          [VoiceModule|P] [Voice] VoiceModule initialized (maxDistance=32.0, refDistance=4.0, enabled=false, voiceStreamSupported=true)
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|55.00000000000001
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|56.00000000000001
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|56.99999999999999
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|57.99999999999999
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|57.99999999999999
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|59.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|60.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|61.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|62.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|63.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|64.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|65.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|66.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|67.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|68.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|69.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|70.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|71.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|72.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|73.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|74.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|75.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|75.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|76.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|77.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|78.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|79.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|80.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|81.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|82.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|83.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|84.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|85.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|86.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|87.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|88.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|89.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|90.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|91.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|92.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|92.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|93.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|94.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|95.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|96.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|97.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|98.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|99.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|100.0
+[2026/10/13 15:56:52   INFO]      [ServerAuthManager] Auth credential store: Encrypted
+[2026/10/13 15:56:52   INFO]           [HytaleServer] Setup phase completed! Boot time 6sec 600ms 514us 200ns
+[2026/10/13 15:56:52   INFO]                 [Hytale] Loading common assets from: /
+[2026/10/13 15:56:52   INFO]    [CommonAssetModule|P] Took 225ms 949us 500ns to load 28605 assets from CommonAssetsIndex.hashes file.
+[2026/10/13 15:56:52   WARN]    [CommonAssetModule|P] Duplicated Asset Count: 724
+[2026/10/13 15:56:52   INFO]                 [Hytale] Loading common assets phase completed! Boot time 6sec 827ms 579us 700ns, Took 226ms 561us 600ns
+[2026/10/13 15:56:52   INFO]                 [Hytale] Loading common assets from: E:\Games\Hytale\UserData\Mods\PhantomPaint.Goblin Circus
+[2026/10/13 15:56:52   WARN]    [CommonAssetModule|P] Duplicated Asset Count: 724
+[2026/10/13 15:56:52   INFO]                 [Hytale] Loading common assets phase completed! Boot time 6sec 828ms 147us 900ns, Took 515us 400ns
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 10829 entries for 'zh-CN' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 11068 entries for 'uk-UA' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 9328 entries for 'ru-RU' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 11159 entries for 'pt-BR' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 8951 entries for 'fr-FR' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 7922 entries for 'es-ES' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 11785 entries for 'en-US' from /Server/Languages
+[2026/10/13 15:56:52   INFO]           [I18nModule|P] Loaded 51 entries from /Server/Languages/fallback.lang
+[2026/10/13 15:56:52   INFO]    [AssetRegistryLoader] Loading 114 asset stores...
+[2026/10/13 15:56:52   INFO]    [AssetRegistryLoader] Pre-adding assets...
+[2026/10/13 15:56:52   INFO]      [CollisionModule|P] Block extents for CollisionSystem is Max=0.00000, Min=0.00000
+[2026/10/13 15:56:52   INFO]           [ItemModule|P] Computed damage data for 0 of 0 weapon items
+[2026/10/13 15:56:52   INFO]                 [Hytale] Loading assets from: /Server
+[2026/10/13 15:56:52   INFO]    [AssetRegistryLoader] Loading assets from /Server
+[2026/10/13 15:56:53   INFO]      [CollisionModule|P] Block extents for CollisionSystem is Max=3.40000, Min=0.00000
+[2026/10/13 15:56:53   WARN]        [HytaleGenerator] Duplicate export name for asset: Volcanic1_Swamp_Bushes_Jungles_Pattern
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Plains1_Hills-SC_Terrain' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Plains1_Gorges_Rock_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Plains1_Hills-SurfaceScan' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Plains1_Gorges_Tree_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Dry_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Palm_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Oasis_Grasses_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Oasis_Plants_2_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Boab_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Boulders_Scanner' with asset id 'null
+[2026/10/13 15:56:53   WARN]        [HytaleGenerator] Duplicate export name for asset: Desert1_Boulders_Scanner
+[2026/10/13 15:56:53   INFO]        [HytaleGenerator] Exported Scanner asset with name 'Desert1_Boulders_Scanner' with asset id 'null
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeRandom' for file '/Server/ScriptedBrushes/Archive/templeRandom.json' has incorrect format! Expected: 'TempleRandom'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeFloor' for file '/Server/ScriptedBrushes/Archive/templeFloor.json' has incorrect format! Expected: 'TempleFloor'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'MountainBrush_old' for file '/Server/ScriptedBrushes/Archive/MountainBrush_old.json' has incorrect format! Expected: 'MountainBrush_Old'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templePillars' for file '/Server/ScriptedBrushes/Archive/templePillars.json' has incorrect format! Expected: 'TemplePillars'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeDestruction' for file '/Server/ScriptedBrushes/Archive/templeDestruction.json' has incorrect format! Expected: 'TempleDestruction'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'keepDestruction' for file '/Server/ScriptedBrushes/Archive/keepDestruction.json' has incorrect format! Expected: 'KeepDestruction'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeWalls' for file '/Server/ScriptedBrushes/Archive/templeWalls.json' has incorrect format! Expected: 'TempleWalls'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'BoulderBrush_old' for file '/Server/ScriptedBrushes/Archive/BoulderBrush_old.json' has incorrect format! Expected: 'BoulderBrush_Old'
+[2026/10/13 15:56:53   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'moltenBall' for file '/Server/ScriptedBrushes/Archive/moltenBall.json' has incorrect format! Expected: 'MoltenBall'
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'BarrelDamageVolume' file /Server/TriggerVolumes/Effects/BarrelDamageVolume.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Asset key 'sample_bounce_pad' for file '/Server/TriggerVolumes/Effects/sample_bounce_pad.json' has incorrect format! Expected: 'Sample_Bounce_Pad'
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Undead_Encounter_Spawner' file /Server/TriggerVolumes/Effects/Undead_Encounter_Spawner.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'sample_bounce_pad' file /Server/TriggerVolumes/Effects/sample_bounce_pad.json: Effects.0.Type, Effects.1.Type, Effects.2.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Objective_Outpost_Undead' file /Server/TriggerVolumes/Effects/Objective_Outpost_Undead.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Dungeon_Cauldron_Goo_Volume' file /Server/TriggerVolumes/Effects/Dungeon_Cauldron_Goo_Volume.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Goblin_Gobliterator_Cannon_Projectile_Volume' file /Server/TriggerVolumes/Effects/Goblin_Gobliterator_Cannon_Projectile_Volume.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Conditions.0.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Goblin_Gobliterator_Cannon_Projectile_Volume_HM' file /Server/TriggerVolumes/Effects/Goblin_Gobliterator_Cannon_Projectile_Volume_HM.json: Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Conditions.0.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Health_Pack_Volume' file /Server/TriggerVolumes/Effects/Health_Pack_Volume.json: Conditions.0.Type, Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type, Effects.6.Type, Effects.7.Type, Effects.8.Type, Effects.9.Type, Effects.10.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Dungeon_Checkpoint' file /Server/TriggerVolumes/Effects/Dungeon_Checkpoint.json: Conditions.0.Type, Conditions.1.Type, Conditions.2.Type, Conditions.3.Type, Conditions.4.Type, Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type, Effects.6.Type, Effects.7.Type, Effects.8.Type, Effects.9.Type, Effects.10.Type, Effects.11.Type, Effects.12.Type, Effects.13.Type
+[2026/10/13 15:56:53   WARN] [AssetStore|TriggerEffectAsset] Unused key(s) in 'Coffer_Goblin' file /Server/TriggerVolumes/Effects/Coffer_Goblin.json: Conditions.0.Type, Conditions.1.Type, Conditions.2.Type, Conditions.3.Type, Conditions.4.Type, Conditions.5.Type, Conditions.6.Type, Conditions.7.Type, Conditions.8.Type, Conditions.9.Type, Conditions.10.Type, Conditions.11.Type, Conditions.12.Type, Conditions.13.Type, Conditions.14.Type, Conditions.15.Type, Conditions.16.Type, Conditions.17.Type, Conditions.18.Type, Conditions.19.Type, Conditions.20.Type, Conditions.21.Type, Conditions.22.Type, Conditions.23.Type, Conditions.24.Type, Conditions.25.Type, Conditions.26.Type, Conditions.27.Type, Conditions.28.Type, Conditions.29.Type, Conditions.30.Type, Conditions.31.Type, Effects.0.Type, Effects.1.Type, Effects.2.Type, Effects.3.Type, Effects.4.Type, Effects.5.Type, Effects.6.Type, Effects.7.Type, Effects.8.Type, Effects.9.Type, Effects.10.Type, Effects.11.Type, Effects.12.Type, Effects.13.Type, Effects.14.Type, Effects.15.Type, Effects.16.Type, Effects.17.Type, Effects.18.Type, Effects.19.Type, Effects.20.Type, Effects.21.Type, Effects.22.Type, Effects.23.Type, Effects.24.Type, Effects.25.Type, Effects.26.Type, Effects.27.Type, Effects.28.Type, Effects.29.Type, Effects.30.Type, Effects.31.Type, Effects.32.Type, Effects.33.Type, Effects.34.Type, Effects.35.Type, Effects.36.Type, Effects.37.Type, Effects.38.Type, Effects.39.Type, Effects.40.Type, Effects.41.Type, Effects.42.Type, Effects.43.Type, Effects.44.Type, Effects.45.Type, Effects.46.Type, Effects.47.Type, Effects.48.Type, Effects.49.Type, Effects.50.Type, Effects.51.Type, Effects.52.Type, Effects.53.Type, Effects.54.Type, Effects.55.Type, Effects.56.Type, Effects.57.Type, Effects.58.Type, Effects.59.Type, Effects.60.Type, Effects.61.Type, Effects.62.Type, Effects.63.Type, Effects.64.Type, Effects.65.Type, Effects.66.Type, Effects.67.Type, Effects.68.Type, Effects.69.Type, Effects.70.Type, Effects.71.Type, Effects.72.Type, Effects.73.Type, Effects.74.Type, Effects.75.Type, Effects.76.Type
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Sun_Shafts_Large' file /Server/Particles/Environment/Dungeon_Goblin/Sun_Shafts/Spawners/Large/Dungeon_Goblin_Sun_Shafts_Large.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Sun_Shafts_Large_Upper' file /Server/Particles/Environment/Dungeon_Goblin/Sun_Shafts/Spawners/Large/Dungeon_Goblin_Sun_Shafts_Large_Upper.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Void_Barrier_Impact' file /Server/Particles/Environment/Dungeon_Goblin/Void_Barrier/Spawners/Dungeon_Goblin_Void_Barrier_Impact.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Red_Large' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Red_Large.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Reveal_Thin' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Reveal_Thin.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Reveal' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Reveal.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Red' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Red.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Impact' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Impact.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]    [AssetStore|ParticleSpawner] Unused key(s) in 'Dungeon_Goblin_Energy_Barrier_Reveal_Small' file /Server/Particles/Environment/Dungeon_Goblin/Energy_Barrier/Spawners/Dungeon_Goblin_Energy_Barrier_Reveal_Small.particlespawner: Particle.InitialAnimationFrame.Rotation.Min, Particle.InitialAnimationFrame.Rotation.Max
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Spawns
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Taiga1_Rewood_Trees_Mask
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Selective_Tags' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Selective_Tags.json: Terrain.Density.GraphGenerator.IsSingleInstance
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_River' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_River.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.TransitionSteepness, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.TransitionPoint, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.PrintStats, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.StatsPrintInterval, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.StatsLabel, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheCellSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheCapacity
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Erosion' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Erosion.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Roots' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Roots.json: Terrain.Density.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_River' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_River.json: Props.2.PropDistribution.PropDistributions.0.PropDistribution.Positions.Positions.Distributor.OffsetX, Props.2.PropDistribution.PropDistributions.0.PropDistribution.Positions.Positions.Distributor.OffsetY, Props.2.PropDistribution.PropDistributions.0.PropDistribution.Positions.Positions.Distributor.OffsetZ
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Desert1_Rivers_Cliffs
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Example_Graph_Road_Layout' file /Server/HytaleGenerator/Biomes/Examples/Example_Graph_Road_Layout.json: MaterialProvider.Solid.Queue.0.FieldFunction.Inputs.0.Inputs.0.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/13 15:56:53   WARN]               [HytaleGenerator] Duplicate export name for asset: Peak
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_Oak' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_Oak.json: Props.2.PropDistribution.PropDistributions.7.PropDistribution.Positions.Positions.Distributor.OffsetX, Props.2.PropDistribution.PropDistributions.7.PropDistribution.Positions.Positions.Distributor.OffsetY, Props.2.PropDistribution.PropDistributions.7.PropDistribution.Positions.Positions.Distributor.OffsetZ
+[2026/10/13 15:56:53   INFO]               [HytaleGenerator] Exported Scanner asset with name 'BasicForestTreeScanner' with asset id 'null
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:56:53   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Rocky_Trees_Dry_Scanner' with asset id 'null
+[2026/10/13 15:56:53   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Rocky_Trees_Palm_Scanner' with asset id 'null
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Desert1_Oasis' file /Server/HytaleGenerator/Biomes/Desert1/Desert1_Oasis.json: Props.2.Positions.Positions.OffsetX, Props.2.Positions.Positions.OffsetY, Props.2.Positions.Positions.OffsetZ, Props.3.Positions.Positions.OffsetX, Props.3.Positions.Positions.OffsetY, Props.3.Positions.Positions.OffsetZ, Props.4.Positions.Positions.OffsetX, Props.4.Positions.Positions.OffsetY, Props.4.Positions.Positions.OffsetZ, Props.5.Positions.Positions.OffsetX, Props.5.Positions.Positions.OffsetY, Props.5.Positions.Positions.OffsetZ, Props.6.Positions.Positions.OffsetX, Props.6.Positions.Positions.OffsetY, Props.6.Positions.Positions.OffsetZ
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_Hills' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_Hills.json: Props.2.PropDistribution.PropDistributions.1.PropDistributions.0.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.0.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.0.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.1.PropDistributions.1.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.1.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.1.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.1.PropDistributions.2.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.2.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.2.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.1.PropDistributions.3.Positions.Positions.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.1.PropDistributions.3.Positions.Positions.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.1.PropDistributions.3.Positions.Positions.Positions.Positions.Positions.OffsetZ, Props.3.PropDistribution.PropDistributions.1.PropDistribution.Positions.Positions.Positions.FieldFunction.Positions.OffsetX, Props.3.PropDistribution.PropDistributions.1.PropDistribution.Positions.Positions.Positions.FieldFunction.Positions.OffsetY, Props.3.PropDistribution.PropDistributions.1.PropDistribution.Positions.Positions.Positions.FieldFunction.Positions.OffsetZ
+[2026/10/13 15:56:53   WARN]         [AssetStore|BiomeAsset] Unused key(s) in 'Portal_Goblin_Biome' file /Server/HytaleGenerator/Biomes/Portal_Goblin/Portal_Goblin_Biome.json: Props.0.PropDistribution.PropDistributions.2.PropDistribution.Positions.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.2.PropDistribution.Positions.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.2.PropDistribution.Positions.Positions.Positions.OffsetZ, Props.0.PropDistribution.PropDistributions.3.Positions.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.3.Positions.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.3.Positions.Positions.Positions.OffsetZ, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.OffsetZ, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.0.OffsetX, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.0.OffsetY, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.0.OffsetZ, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.1.Positions.Positions.OffsetX, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.1.Positions.Positions.OffsetY, Props.0.PropDistribution.PropDistributions.5.PropDistribution.Positions.Positions.Positions.Positions.1.Positions.Positions.OffsetZ, Props.1.PropDistribution.PropDistributions.3.PropDistribution.Positions.Positions.Positions.Positions.Positions.Positions.FieldFunction.Inputs.0.Inputs.0.Inputs.0.Positions.OffsetX, Props.1.PropDistribution.PropDistributions.3.PropDistribution.Positions.Positions.Positions.Positions.Positions.Positions.FieldFunction.Inputs.0.Inputs.0.Inputs.0.Positions.OffsetY, Props.1.PropDistribution.PropDistributions.3.PropDistribution.Positions.Positions.Positions.Positions.Positions.Positions.FieldFunction.Inputs.0.Inputs.0.Inputs.0.Positions.OffsetZ, Props.2.PropDistribution.PropDistributions.10.PropDistribution.Positions.Positions.Positions.OffsetX, Props.2.PropDistribution.PropDistributions.10.PropDistribution.Positions.Positions.Positions.OffsetY, Props.2.PropDistribution.PropDistributions.10.PropDistribution.Positions.Positions.Positions.OffsetZ
+[2026/10/13 15:57:02 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:57:02 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/10/13 15:57:02   WARN] [AssetStore|GraphGeneratorAsset] Unused key(s) in 'Plains1_Trork_Camp' file /Server/HytaleGenerator/GraphGenerators/Plains1_Trork_Camp.json: IsSingleInstance
+[2026/10/13 15:57:02   WARN] [AssetStore|GraphGeneratorAsset] Unused key(s) in 'Plains1_Caves' file /Server/HytaleGenerator/GraphGenerators/Plains1_Caves.json: IsSingleInstance
+[2026/10/13 15:57:02   WARN] [AssetStore|GraphGeneratorAsset] Unused key(s) in 'Portal_Goblin_Graph_Cave' file /Server/HytaleGenerator/GraphGenerators/Portal_Goblin_Graph_Cave.json: IsSingleInstance
+[2026/10/13 15:57:02   WARN]        [AssetStore|DensityAsset] Unused key(s) in 'Portal_Goblin_Graph_Cave' file /Server/HytaleGenerator/Density/Portal_Goblin_Graph_Cave.json: Inputs.0.Inputs.0.Inputs.0.Inputs.0.GraphGenerator.IsSingleInstance
+[2026/10/13 15:57:04   WARN]          [AssetStore|StageAsset] Unused key(s) in 'Goblin_Breach_First_Stage3' file /Server/WorldEvent/Stage/Goblin/Breach/First/Goblin_Breach_First_Stage3.json: Forks.0.Actions.1.Volume.Effects.0.Type, Forks.0.Actions.1.Volume.Effects.1.Type, Forks.0.Actions.3.Volume.Rules.0.Type, Forks.0.Actions.3.Volume.Rules.1.Type
+[2026/10/13 15:57:04   WARN]          [AssetStore|StageAsset] Unused key(s) in 'Goblin_Breach_Perpetual_Stage3' file /Server/WorldEvent/Stage/Goblin/Breach/Perpetual/Goblin_Breach_Perpetual_Stage3.json: Forks.0.Actions.1.Volume.Effects.0.Type, Forks.0.Actions.1.Volume.Effects.1.Type, Forks.0.Actions.3.Volume.Rules.0.Type, Forks.0.Actions.3.Volume.Rules.1.Type
+[2026/10/13 15:57:04   WARN]               [MacroCommandBase] Could not parse default argument value for argument: 'world' on Macro Command: 'settimeandgohome'.
+No such world "Default".
+No such world "Default".
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted_Large' for file '/Server/PrefabList/Trees_Ash_twisted_Large.json' has incorrect format! Expected: 'Trees_Ash_Twisted_Large'
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted_Giant' for file '/Server/PrefabList/Trees_Ash_twisted_Giant.json' has incorrect format! Expected: 'Trees_Ash_Twisted_Giant'
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted' for file '/Server/PrefabList/Trees_Ash_twisted.json' has incorrect format! Expected: 'Trees_Ash_Twisted'
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_swamp_dead' for file '/Server/PrefabList/Trees_Ash_swamp_dead.json' has incorrect format! Expected: 'Trees_Ash_Swamp_Dead'
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Burnt_dead' for file '/Server/PrefabList/Trees_Burnt_dead.json' has incorrect format! Expected: 'Trees_Burnt_Dead'
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_swamp' for file '/Server/PrefabList/Trees_Ash_swamp.json' has incorrect format! Expected: 'Trees_Ash_Swamp'
+[2026/10/13 15:57:04   WARN]     [AssetStore|PrefabListAsset] Asset key 'Trees_Fir_red' for file '/Server/PrefabList/Trees_Fir_red.json' has incorrect format! Expected: 'Trees_Fir_Red'
+[2026/10/13 15:57:04   WARN]            [AssetStore|ModelVFX] Asset key 'test' for file '/Server/Entity/ModelVFX/test.json' has incorrect format! Expected: 'Test'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Spider_Cocoon'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Kweebec_Window'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Scarak_Window'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'VFX_Dungeon_Goblin_Electric_Fence'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'GoblinLab_Fence'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Hard'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Coop_Chicken'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Broken_Repairables'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Ancient_Gateway_Repaired'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Crystal_Void_Block'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Power_Switch_Unpowered'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Barrier'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Pile'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Skulls'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash_Pile_Large'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Beef_Raw'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Pork_Raw'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Fish_Raw'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Standard'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/13 15:57:04   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Bench_Trough'
+[2026/10/13 15:57:04   INFO]              [HytaleGenerator|P] Loaded Settings asset.
+[2026/10/13 15:57:04   WARN]        [AssetStore|EntityEffect] Unused key(s) in 'Ability_ChargedShot_Charge_1' file /Server/Entity/Effects/Abilities/Ability_ChargedShot_Charge_1.json: Interactions
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '*Weapon_Sword_Signature_Vortexstrike_Spin_Selector_Next': Next
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '*Weapon_Daggers_Primary_Pounce_Stab_Selector_Next': Next
+[2026/10/13 15:57:05   WARN]     [AssetStore|RootInteraction] Unused key(s) in '*Projectile_Config_Hookshot_Interactions_ProjectileHit': Interrupting
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Ice_Ball_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Scarak_Seeker_Spitball_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Ice_Bolt_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Scarak_Seeker_Spitball_Interactions_ProjectileHit_Interactions_0': Entity
+[2026/10/13 15:57:05   WARN]     [AssetStore|RootInteraction] Unused key(s) in '***Goblin_Feastmaster_Vomit_Cone_Interactions_ProjectileHit_Interactions_0_ForkInteractions': Type, Selector
+[2026/10/13 15:57:05   WARN]     [AssetStore|RootInteraction] Unused key(s) in '***Goblin_Feastmaster_Vomit_Cone_Interactions_ProjectileMiss_Interactions_0_ForkInteractions': Type, Selector
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Spider_Cocoon'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Kweebec_Window'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Scarak_Window'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'VFX_Dungeon_Goblin_Electric_Fence'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'GoblinLab_Fence'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Hard'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Coop_Chicken'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Broken_Repairables'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Ancient_Gateway_Repaired'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Crystal_Void_Block'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'GoblinLab_Power_Switch_Unpowered'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Barrier'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Pile'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Bone_Skulls'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash_Pile_Large'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Deco_Trash'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Beef_Raw'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Pork_Raw'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Food_Fish_Raw'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Window'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Goblin_Brazier'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Standard'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find group name 'Goblin_Gobliterator_Difficulty_Closed'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/10/13 15:57:05   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Bench_Trough'
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Scrap_Lightbulb_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Flame_InteractionVars_Fireball_Impact_2_Interactions_0': EntityStatsOnHit
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Shield_Copper_InteractionVars_Guard_Bash_Interactions_0': Effects, StatModifiers
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Flame_InteractionVars_Fireball_Impact_3_Interactions_0': EntityStatsOnHit
+[2026/10/13 15:57:05   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Voidcrystal_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/10/13 15:57:06   WARN]           [AssetStore|BlockType] Unused key(s) in 'Plant_Crop_Mushroom_Boomshroom_Small': ExplosionConfig.Particles.0.ParticleColor
+[2026/10/13 15:57:06   WARN]           [AssetStore|BlockType] Unused key(s) in '*Metal_Orbis_Copper_Roof_Shallow_State_Definitions_Inverted_Corner_Left': Textures.0.Texture
+[2026/10/13 15:57:06   WARN]           [AssetStore|BlockType] Unused key(s) in '*Metal_Orbis_Copper_Roof_Shallow_State_Definitions_Inverted_Corner_Right': Textures.0.Texture
+[2026/10/13 15:57:06   INFO]                   [ItemModule|P] Computed damage data for 0 of 0 weapon items
+[2026/10/13 15:57:06   INFO]                   [ItemModule|P] Computed damage data for 229 of 275 weapon items
+[2026/10/13 15:57:07   INFO]            [AssetRegistryLoader] Took 14sec 165ms 16us 100ns to load all assets
+[2026/10/13 15:57:07   INFO]                         [Hytale] Loading assets from: E:\Games\Hytale\UserData\Mods\PhantomPaint.Goblin Circus\Server
+[2026/10/13 15:57:07   INFO]            [AssetRegistryLoader] Loading assets from E:\Games\Hytale\UserData\Mods\PhantomPaint.Goblin Circus\Server
+[2026/10/13 15:57:07   INFO]            [AssetRegistryLoader] Took 5ms 890us 300ns to load all assets
+[2026/10/13 15:57:07   INFO]                         [Hytale] Loading NPC assets phase...
+[2026/10/13 15:57:07   INFO]                          [NPC|P] Starting to load builders!
+[2026/10/13 15:57:07   WARN]                          [NPC|P] Replacing asset 'Test_Patrol_Path' of file '/Server/NPC/Roles/_Core/Tests_Development/Test_Patrol_Path.json' with other file '/Server/NPC/Roles/_Core/Tests/Paths/Test_Patrol_Path.json'
+[2026/10/13 15:57:09   INFO]                          [NPC|P] Validating loaded configurations...
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Elite!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Sleep does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Alerted does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Laydown does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Wake does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Eat does not exist for model Spark_Living!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Sleep does not exist for model Slug_Magma!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Alerted does not exist for model Slug_Magma!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Laydown does not exist for model Slug_Magma!
+[2026/10/13 15:57:09   WARN]                          [NPC|P] Animation Wake does not exist for model Slug_Magma!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Idle does not exist for model Tuluk_Fisherman!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Hatworm!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Hedera!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Goblin_Duke!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Moo does not exist for model Bison_Calf!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Lizard_Sand!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Hurt does not exist for model Void_Tentacle!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Trillodon!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Yawn does not exist for model Skeleton_Archer!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation ScratchButt does not exist for model Skeleton_Archer!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation KickGround does not exist for model Skeleton_Archer!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Kweebec_Rootling!
+[2026/10/13 15:57:10   INFO]                          [NPC|P] Validation complete.
+[2026/10/13 15:57:10   INFO]                          [NPC|P] Loaded 1139 NPC configurations, Test: 272, Component: 149, Abstract: 87, Variant: 536, Generic: 103
+[2026/10/13 15:57:10   INFO]                          [NPC|P] Loaded 67 EncounterManager configurations, Component: 21, Abstract: 5, Variant: 16, Generic: 25
+[2026/10/13 15:57:10   INFO]                          [NPC|P] Starting to load builders!
+[2026/10/13 15:57:10   INFO]                          [NPC|P] Validating loaded configurations...
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Elite!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Sleep does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Laydown does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Wake does not exist for model Wraith_Lantern!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Spark_Living!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Sleep does not exist for model Slug_Magma!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Slug_Magma!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Laydown does not exist for model Slug_Magma!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Wake does not exist for model Slug_Magma!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Idle does not exist for model Tuluk_Fisherman!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Hatworm!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Hedera!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Goblin_Duke!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Moo does not exist for model Bison_Calf!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Lizard_Sand!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Hurt does not exist for model Void_Tentacle!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Hurt does not exist for model Bear_Voidtaken_Tentacle!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Eat does not exist for model Trillodon!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Angry does not exist for model Skeleton_Burnt_Praetorian!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Yawn does not exist for model Skeleton_Archer!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation ScratchButt does not exist for model Skeleton_Archer!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation KickGround does not exist for model Skeleton_Archer!
+[2026/10/13 15:57:10   WARN]                          [NPC|P] Animation Alerted does not exist for model Kweebec_Rootling!
+[2026/10/13 15:57:10   INFO]                          [NPC|P] Validation complete.
+[2026/10/13 15:57:10   INFO]                         [Hytale] Loading NPC assets phase completed! Boot time 24sec 340ms 566us 600ns, Took 3sec 150ms 961us 800ns
+[2026/10/13 15:57:10   INFO]                         [Hytale] Validating Spawn assets phase...
+[2026/10/13 15:57:10   INFO]                         [Hytale] Spawn assets validation phase completed! Boot time 24sec 342ms 394us, Took 1ms 639us 400ns
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|0.0
+[2026/10/13 15:57:10   INFO]                   [HytaleServer] Starting plugin manager...
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|1.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:AnchorActionModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|2.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:AssetModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|3.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockSetModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|4.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:CollisionModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|5.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:CommandMacro
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|6.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ConsoleModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|7.000000000000001
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:CosmeticsModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|8.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:CrouchSlide
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|8.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:DebugPlugin
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|9.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:DiscoveryModule
+[2026/10/13 15:57:10   INFO]                [HytaleGenerator] Concurrency report:
+	Low Priority: 2 / 24 threads
+	Normal Priority: 21 / 24 threads
+	High Priority: 23 / 24 threads
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|10.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:HytaleGenerator
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|11.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ItemModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|12.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:LANDiscovery
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|13.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:LegacyModule
+[2026/10/13 15:57:10   INFO]               [LiveConfigModule] LiveConfig starting (patchline=release, os=windows, arch=amd64)
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|14.000000000000002
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:LiveConfigModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|15.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Mantling
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|16.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:MigrationModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|17.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:PermissionsModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|18.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Rewards
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|19.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:SafetyRoll
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|20.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ServerManager
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|21.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:SplitVelocity
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|22.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:SprintForce
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|23.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:TagSet
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|24.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:TimeModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|25.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:UIModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|25.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Universe
+[2026/10/13 15:57:10   INFO]                   [UpdateModule] Update checker disabled: singleplayer mode
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|26.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:UpdateModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|27.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:WorldLocationCondition
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|28.000000000000004
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:AccessControlModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|28.999999999999996
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockAnimationModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|30.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockHealthModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|31.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|32.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockTick
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|33.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockTypeModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|34.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:CommonAssetModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|35.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:EntityModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|36.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:FlyCameraModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|37.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:I18nModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|38.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Model
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|39.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:RandomTick
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|40.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ServerPlayerListModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|41.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:TelemetryModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|42.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Ambience
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|42.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:AssetEditor
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|43.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Audio
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|44.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Beam
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|45.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:FallingBlocks
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|46.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Fluid
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|47.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:InteractionModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|48.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Parkour
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|49.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:PrefabSpawnerModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|50.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ProjectileModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|51.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ReactiveBlocks
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|52.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Reputation
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|53.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Stash
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|54.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Teleport
+[2026/10/13 15:57:10   INFO]                  [VoiceModule|P] [Voice] Started position cache update task (100ms interval)
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|55.00000000000001
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:VoiceModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|56.00000000000001
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Weather
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|56.99999999999999
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:WorldGen
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|57.99999999999999
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BlockPhysics
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|57.99999999999999
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:BuilderTools
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|59.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:ConnectedBlocksModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|60.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Crafting
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|61.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Deployables
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|62.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:EntityStatsModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|63.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Locate
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|64.0
+[2026/10/13 15:57:10   INFO]                  [PluginManager] Enabled plugin Hytale:Objectives
+[2026/10/13 15:57:10   INFO]                  [World|default] Loading world 'default' with generator type: 'HytaleWorldGenProvider{name='Default', version=0.0.0, path='null'}' and chunk storage: 'DefaultChunkStorageProvider{DEFAULT=IndexedStorageChunkStorageProvider{}}'...
+[2026/10/13 15:57:10   INFO]             [World|GoblinCircus] Loading world 'GoblinCircus' with generator type: 'HytaleWorldGenProvider{name='Default', version=0.0.0, path='null'}' and chunk storage: 'DefaultChunkStorageProvider{DEFAULT=IndexedStorageChunkStorageProvider{}}'...
+[2026/10/13 15:57:10   INFO] [World|prefabEditor-PhantomPaint] Loading world 'prefabEditor-PhantomPaint' with generator type: 'FlatWorldGenProvider{tint=com.hypixel.hytale.protocol.Color@1be44, layers=[Layer{from=54, to=320, environment='Env_Zone1_Plains', blockType=Empty}, Layer{from=53, to=54, environment='Env_Zone1_Plains', blockType=Soil_Grass}, Layer{from=0, to=53, environment='Env_Zone1_Plains', blockType=Soil_Clay}]}' and chunk storage: 'DefaultChunkStorageProvider{DEFAULT=IndexedStorageChunkStorageProvider{}}'...
+[2026/10/13 15:57:10   INFO]                 [BarterShopState] Loaded barter shop state with 0 shops
+[2026/10/13 15:57:10   INFO]                          [Shop|P] Barter shop state initialized
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|65.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Shop
+[2026/10/13 15:57:10   INFO]            [SingleplayerModule|P] Client PID: 28588
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|66.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:SingleplayerModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|67.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Teleporter
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|68.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:WorldEvents
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|69.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:BlockSpawner
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|70.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:EntityUIModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|71.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Farming
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|72.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Instances
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|73.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:ObjectiveReputation
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|74.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:ObjectiveShop
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|75.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Path
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|75.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Points
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|76.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:ShopReputation
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|77.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:StaminaModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|78.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Wilderness
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|79.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:CreativeHub
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|80.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:DamageModule
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|81.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Camera
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|82.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPC
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|83.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Abilities
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|84.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:EncounterManager
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|85.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Flock
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|86.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:GameFlags
+[2026/10/13 15:57:10   INFO]              [World|GoblinCircus] Added world 'GoblinCircus' - Seed: 1791906602232, GameTime: 0001-01-01T08:24:03.967635439Z
+[2026/10/13 15:57:10   INFO]                   [World|default] Added world 'default' - Seed: 1791905538335, GameTime: 0001-01-01T17:03:49.188328460Z
+[2026/10/13 15:57:10   INFO] [World|prefabEditor-PhantomPaint] Added world 'prefabEditor-PhantomPaint' - Seed: 1791905930526, GameTime: 0001-01-01T12:00:00Z
+[2026/10/13 15:57:10   INFO] [World|prefabEditor-PhantomPaint|M] Initializing world map generator: com.hypixel.hytale.server.core.universe.world.worldmap.provider.chunk.ChunkWorldMap@61b04ad4
+[2026/10/13 15:57:10   INFO] [World|prefabEditor-PhantomPaint|M] Generating Points of Interest...
+[2026/10/13 15:57:10   INFO] [World|prefabEditor-PhantomPaint|M] Finished Generating Points of Interest!
+[2026/10/13 15:57:10   INFO]                  [WorldGenerator] Loading world-gen with the following asset-packs (highest priority first):
+[2026/10/13 15:57:10   INFO]                  [WorldGenerator] Loading world-gen with the following asset-packs (highest priority first):
+[2026/10/13 15:57:10   INFO]                  [WorldGenerator] - [  0] Hytale:Hytale:0.0.0 - [E:\Games\Hytale\install\release\package\game\latest\Assets.zip]
+[2026/10/13 15:57:10   INFO]                  [WorldGenerator] - [  0] Hytale:Hytale:0.0.0 - [E:\Games\Hytale\install\release\package\game\latest\Assets.zip]
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|87.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Memories
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|88.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Mounts
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|89.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPCCombatActionEvaluator
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|90.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPCEditor
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|91.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPCKnockbackDebug
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|92.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPCReputation
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|92.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPCShop
+[2026/10/13 15:57:10   INFO]                      [Spawning|P] Successfully set up 98 world spawn configurations
+[2026/10/13 15:57:10   INFO]                      [Spawning|P] Successfully set up 96 beacon spawn configurations
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|93.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Spawning
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|94.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:TriggerVolumes
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|95.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:AugmentBlocks
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|96.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Beds
+[2026/10/13 15:57:10   INFO]         [CompanionBlockSpawner|P] Companion block spawner: loaded 2 recipe(s)
+[2026/10/13 15:57:10   INFO]         [CompanionBlockSpawner|P] Injected CompanionBlockSpawnerBlock into 4 block types
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|97.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:CompanionBlockSpawner
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|98.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:NPCObjectives
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|99.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:Portals
+-=|{"MessageId": "client.gameLoadingView.status.starting"}|100.0
+[2026/10/13 15:57:10   INFO]                   [PluginManager] Enabled plugin Hytale:GoblinLab
+[2026/10/13 15:57:10   INFO]                    [HytaleServer] Plugin manager started! Startup time so far: 24sec 441ms 495us 300ns
+-=|{"MessageId": "client.gameLoadingView.status.enabled"}|0.0
+[2026/10/13 15:57:10   INFO]                    [HytaleServer] Getting Hytale Universe ready...
+[2026/10/13 15:57:10   INFO]                    [PointsPlugin] Loaded 0 points for world 'prefabeditor-phantompaint'
+[2026/10/13 15:57:10   INFO]            [TriggerVolumesPlugin] Loaded 0 trigger volumes and 0 groups for world 'prefabeditor-phantompaint'
+[2026/10/13 15:57:10   WARN]           [UpdateLocationSystems] Entity has moved into a chunk that isn't currently loaded! 0, 1, 0, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@25dfc54b
+[2026/10/13 15:57:10   WARN] [World|prefabEditor-PhantomPaint] Task took 35ms 333us 500ns ns: com.hypixel.hytale.builtin.buildertools.prefabeditor.PrefabEditingMetadata$$Lambda/0x0000000083f15800@456ed3dc
+[2026/10/13 15:57:10   WARN]           [UpdateLocationSystems] Entity has moved into a chunk that isn't currently loaded! 0, 1, 0, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@25dfc54b
+[2026/10/13 15:57:10   WARN]           [UpdateLocationSystems] Entity has moved into a chunk that isn't currently loaded! 0, 1, 0, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@25dfc54b
+[2026/10/13 15:57:10   WARN]           [UpdateLocationSystems] Entity has moved into a chunk that isn't currently loaded! 0, 1, 0, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@25dfc54b
+[2026/10/13 15:57:10   WARN]           [UpdateLocationSystems] Entity has moved into a chunk that isn't currently loaded! 0, 1, 0, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@25dfc54b
+[2026/10/13 15:57:10   WARN]           [UpdateLocationSystems] Entity has moved into a chunk that isn't currently loaded! 0, 1, 0, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@25dfc54b
+[2026/10/13 15:57:10   INFO]                 [ServerManager|P] Listening on /[0:0:0:0:0:0:0:1]:58757 and took 414ms 333us 800ns
+[2026/10/13 15:57:10   INFO]                 [ServerManager|P] Listening on /127.0.0.1:58757 and took 415ms 890us 700ns
+[2026/10/13 15:57:10   INFO]                  [WorldGenerator] Set prefab-loader config: path=/Server/World/Default, store=ASSETS
+[2026/10/13 15:57:10   INFO]                  [WorldGenerator] Set prefab-loader config: path=/Server/World/Default, store=ASSETS
+[2026/10/13 15:57:12   INFO]                  [WorldGenerator] Initialized ChunkGenerator-0 executor
+[2026/10/13 15:57:12   INFO]                  [WorldGenerator] Initialized ChunkGenerator-1 executor
+[2026/10/13 15:57:12   INFO]                  [WorldGenerator] Found location for unique zone 'Zone1_Spawn' -> Position: {448, 221}, Score: 76.72%, Time: 4ms
+[2026/10/13 15:57:12   INFO]                  [WorldGenerator] Found location for unique zone 'Zone1_Temple' -> Position: {697, 223}, Score: 96.32%, Time: 1ms
+[2026/10/13 15:57:12   INFO]                  [WorldGenerator] Found location for unique zone 'Zone1_Spawn' -> Position: {1790, -181}, Score: 88.81%, Time: 6ms
+[2026/10/13 15:57:12   INFO]                  [WorldGenerator] Found location for unique zone 'Zone1_Temple' -> Position: {1716, 57}, Score: 74.85%, Time: 1ms
+[2026/10/13 15:57:12   INFO]            [World|GoblinCircus|M] Initializing world map generator: com.hypixel.hytale.server.worldgen.map.GeneratorChunkWorldMap@f87ad9
+[2026/10/13 15:57:12   INFO]                 [World|default|M] Initializing world map generator: com.hypixel.hytale.server.worldgen.map.GeneratorChunkWorldMap@738c54b0
+[2026/10/13 15:57:12   INFO]            [World|GoblinCircus|M] Generating Points of Interest...
+[2026/10/13 15:57:12   INFO]                 [World|default|M] Generating Points of Interest...
+[2026/10/13 15:57:12   INFO]                 [World|default|M] Finished Generating Points of Interest!
+[2026/10/13 15:57:12   INFO]            [World|GoblinCircus|M] Finished Generating Points of Interest!
+[2026/10/13 15:57:12   INFO]                    [PointsPlugin] Loaded 0 points for world 'goblincircus'
+[2026/10/13 15:57:12   INFO]            [TriggerVolumesPlugin] Loaded 0 trigger volumes and 0 groups for world 'goblincircus'
+[2026/10/13 15:57:12   INFO]                    [PointsPlugin] Loaded 0 points for world 'default'
+[2026/10/13 15:57:12   INFO]            [TriggerVolumesPlugin] Loaded 0 trigger volumes and 0 groups for world 'default'
+[2026/10/13 15:57:12   INFO]                      [Teleport|P] Loaded 0 warps (No warps.json found)
+[2026/10/13 15:57:12   INFO]                    [HytaleServer] Universe ready!
+[2026/10/13 15:57:12   INFO]                 [TelemetryModule] Sending server start telemetry...
+[2026/10/13 15:57:13   INFO]                   [AssetModule|P] Total Loaded Assets: Interaction: 9191, RootInteraction: 6473, BlockType: 6138, Item: 4008, ParticleSpawner: 2439, CraftingRecipe: 2047, SoundEvent: 1570, ItemDropList: 1007, ParticleSystem: 791, MusicContainer: 676, ModelAsset: 505, Condition: 392, SpawnMarker: 318, EntityEffect: 295, BlockBoundingBoxes: 259, AmbienceFX: 233, AssignmentsAsset: 224, TagPattern: 196, ProjectileConfig: 188, ResourceType: 183, ItemPlayerAnimations: 182, CombatActionOption: 142, Environment: 135, AudioCategory: 120, NPCGroup: 114, Weather: 107, WorldNPCSpawn: 98, BeaconNPCSpawn: 96, Projectile: 86, BalanceAsset: 85, PrefabListAsset: 85, BlockSet: 80, BiomeAsset: 75, Trail: 65, BlockSoundSet: 58, FlockAsset: 57, BlockSpawnerTable: 56, CameraShake: 54, CameraEffect: 54, ModelVFX: 53, BlockGroup: 43, ScriptedBrushAsset: 39, ItemSoundSet: 36, StageAsset: 32, BlockParticleSet: 31, AttitudeGroup: 29, ReverbEffect: 29, WorldStructureAsset: 22, DamageCause: 20, MacroCommandBuilder: 20, Fluid: 19, DensityAsset: 19, ItemToolSpec: 18, AbilityKeyword: 14, EntityStatType: 13, ResponseCurve: 13, BlockTypeListAsset: 13, ViewBobbing: 12, ItemQuality: 12, PhysicalMaterial: 12, ObjectiveAsset: 11, CustomConnectedBlockTemplateAsset: 11, BlockMigration: 11, AudioState: 10, TriggerEffectAsset: 10, WorldEventAsset: 9, GameplayConfig: 8, PortalType: 7, MusicTransition: 6, Element: 5, FluidFX: 5, SpawnSuppression: 5, GameModeType: 5, MovementConfig: 5, ObjectiveLocationMarkerAsset: 4, ItemCategory: 4, Beam: 4, GrowthModifierAsset: 4, BlockBreakingDecal: 4, ItemReticleConfig: 3, EqualizerEffect: 3, GraphGeneratorAsset: 3, BarterShopAsset: 3, UnarmedInteractions: 3, Stinger: 3, HitboxCollisionConfig: 3, PatternedConnectedBlockRuleSetAsset: 3, CompanionBlockSpawnerRecipe: 2, SoundSet: 2, ObjectiveLineAsset: 2, EntityUIComponent: 2, RepulsionConfig: 2, ContentSupplierAsset: 1, SettingsAsset: 1, FarmingCoopAsset: 1, ItemAttitudeGroup: 1, FieldcraftCategory: 1, PropAsset: 1, ReachLocationMarkerAsset: 1, GraphPassAsset: 1, PrefabEditorCreationSettings: 1, ContentPredicateAsset: 1, BuilderToolItemReferenceAsset: 1, PropDistributionAsset: 1, PositionProviderAsset: 1, RewardAsset: 1, WordList: 1, WorldGenModifier: 0, ReputationRank: 0, ReputationGroup: 0, DeployableSpawner: 0, EmoteAsset: 0, ShopAsset: 0, BlockMaskAsset: 0
+[2026/10/13 15:57:13   INFO]                    [HytaleServer] ===============================================================================================
+[2026/10/13 15:57:13   INFO]                    [HytaleServer]          Hytale Server Booted! [Singleplayer] took 27sec 106ms 863us 900ns
+[2026/10/13 15:57:13   INFO]                    [HytaleServer] ===============================================================================================
+>> Singleplayer Ready <<
+[2026/10/13 15:57:13   INFO]                  [QuicheListener] New connection: [33, -89, 40, 105, 116, 42, 49, -45, -27, -4, -83, -24, 26, 71, 84, 5, 0, 0, 0, 0]
+[2026/10/13 15:57:13   INFO]                [QuicheConnection] Peer certificate retrieved: [
+[
+  Version: V3
+  Subject: CN=HytaleClient
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 21372484164516597439304106883775302259468836176408543547033083210068585784504019940402120766460308167770786549858092693667566570354703513994905733875156710605337314166396740720985401376077669204593141203210301622519570886218383311337320057009233646152455377432721049187510388498366503440112355611664825412836151467172796376867113626298775002237184187207560796553498232962738693699340100032190389701613023972226742474782951320367510927495100086637014727001813665655687618498283957189604583406090345219908975545555841142801393883746734215326394514799831900085836491486855568840692609831845577065560704027838352893867057
+  public exponent: 65537
+  Validity: [From: Tue Oct 13 17:51:33 CEST 2026,
+               To: Wed Oct 14 17:56:33 CEST 2026]
+  Issuer: CN=HytaleClient
+  SerialNumber: 00:8c:79:a6:78:91:38:db:1e
+
+Certificate Extensions: 3
+[1]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[2]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  clientAuth
+]
+
+[3]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  DigitalSignature
+  Key_Encipherment
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 15 88 6A 60 F9 A4 64 1E   15 FA 96 83 D4 4E C8 CC  ..j`..d......N..
+0010: 98 39 FC EA 8A 89 5F 1E   16 A6 BF 77 7A 27 B3 6F  .9...._....wz'.o
+0020: 00 13 69 37 8E 07 E7 C5   3E EB 5A CA 97 E8 3B FE  ..i7....>.Z...;.
+0030: 32 EA 28 A4 48 C9 54 8F   E2 51 7C 0B 7E 00 7A B6  2.(.H.T..Q....z.
+0040: 5C 3F B9 76 78 65 40 EB   7F 11 53 CB 9F 5C 15 1F  \?.vxe@...S..\..
+0050: 00 13 F2 CA 92 67 73 37   28 36 FC 51 DD 40 71 DD  .....gs7(6.Q.@q.
+0060: 61 AA E2 E0 FF 78 6E CE   0E 10 CA 45 8D 73 11 3C  a....xn....E.s.<
+0070: 4D 9E 12 17 6A 45 3A 9F   73 AF 06 A9 BE EF 5A DC  M...jE:.s.....Z.
+0080: 61 05 18 43 0E F3 44 32   CB AA 3C BF 87 3D 7F 06  a..C..D2..<..=..
+0090: C7 E6 FA C0 0D B7 DF E8   1F 13 92 9F F2 D6 C1 56  ...............V
+00A0: 78 68 AE 26 E8 66 27 F9   33 01 12 53 32 B6 95 B9  xh.&.f'.3..S2...
+00B0: 88 BA E4 BD CD 50 FA F5   3A 71 FD 94 E0 07 A3 5D  .....P..:q.....]
+00C0: A0 B8 1A 40 9C D4 59 AF   30 8E 30 A5 91 2D 86 72  ...@..Y.0.0..-.r
+00D0: 41 D6 D1 9D 07 3C 2D 17   12 05 2E 6F D6 1A 7F 40  A....<-....o...@
+00E0: 94 6C C1 F1 77 5C E0 09   8E D6 E3 9D 19 86 B5 0E  .l..w\..........
+00F0: 65 3D 37 05 3A 91 60 DB   F5 EC D7 BF A1 37 2E F9  e=7.:.`......7..
+
+]
+[2026/10/13 15:57:13   INFO]                [QuicheConnection] SNI hostname: 127.0.0.1
+[2026/10/13 15:57:13   INFO]                [QuicheConnection] Connection established
+[2026/10/13 15:57:13   INFO]                [QuicheConnection] Stream 0 created
+[2026/10/13 15:57:13   INFO]                [QuicheConnection] Primary stream 0 created
+[2026/10/13 15:57:14   INFO]                          [Hytale] Starting authenticated flow from /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)
+[2026/10/13 15:57:14   INFO]            [SessionServiceClient] Session Service client initialized for: https://sessions.hytale.com
+[2026/10/13 15:57:14   INFO]                    [JWTValidator] JWKS pre-seeded from embedded resource (1 keys)
+[2026/10/13 15:57:14   INFO]                    [JWTValidator] Identity token validated successfully for user PhantomPaint. Token: iss=https://sessions.hytale.com, sub=1a42b4e6-61f5-4373-b8ad-5c16367a004b, scope=hytale:client, iat=2026-10-13T15:56:26Z, exp=2026-10-13T16:56:26Z (+3552s), lifetime=3600s
+[2026/10/13 15:57:14   INFO]                [HandshakeHandler] Identity token validated for PhantomPaint (UUID: 1a42b4e6-61f5-4373-b8ad-5c16367a004b, scope: hytale:client) from /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000), requesting auth grant
+[2026/10/13 15:57:14   INFO]            [SessionServiceClient] Requesting authorization grant with identity token, aud='dd34f577-79ec-49c4-ae42-9370a94f1c86'
+[2026/10/13 15:57:14   INFO]            [SessionServiceClient] Successfully obtained authorization grant
+[2026/10/13 15:57:14   INFO]                [HandshakeHandler] Sending AuthGrant to /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000) (with server identity: true)
+[2026/10/13 15:57:14   INFO]                [HandshakeHandler] Received AuthToken from /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000), validating JWT (mTLS cert present: true, server auth grant: true)
+[2026/10/13 15:57:14   INFO]                 [CertificateUtil] Certificate binding validated successfully
+[2026/10/13 15:57:14   INFO]                    [JWTValidator] JWT validated successfully for user PhantomPaint. Token: iss=https://sessions.hytale.com, aud=dd34f577-79ec-49c4-ae42-9370a94f1c86, sub=1a42b4e6-61f5-4373-b8ad-5c16367a004b, iat=2026-10-13T15:57:15Z, exp=2026-10-13T16:07:15Z (+601s), lifetime=600s, cnf=c0-LvYw_tx0W...
+[2026/10/13 15:57:14   INFO]            [SessionServiceClient] Exchanging authorization grant for access token
+[2026/10/13 15:57:14   INFO]            [SessionServiceClient] Successfully obtained access token
+[2026/10/13 15:57:14   INFO]                [HandshakeHandler] Sending ServerAuthToken to /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000) (with password challenge: false)
+[2026/10/13 15:57:14   INFO]                [HandshakeHandler] Mutual authentication complete for PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b) from /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)
+[2026/10/13 15:57:14   INFO]           [PasswordPacketHandler] Connection complete for PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b) (SNI: 127.0.0.1), transitioning to setup
+[2026/10/13 15:57:15   WARN]                          [Hytale] Missing interaction Effect
+[2026/10/13 15:57:19   INFO]                      [Universe|P] Adding player 'PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:19   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint} Added future for ClientReady packet?
+[2026/10/13 15:57:19   INFO]              [World|GoblinCircus] Adding player 'PhantomPaint' to world 'GoblinCircus' at location null (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:19   INFO]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Sent com.hypixel.hytale.protocol.packets.player.JoinWorld@5568fc35
+[2026/10/13 15:57:20   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da7
+[2026/10/13 15:57:20   INFO]                [LiveConfigModule] LiveConfig updated: version=4d9404402e51e3dc0fcfe3a6814d630c05d1107f32cf572150d7a00607b907e8:v=0.7.0, 8 flag(s)
+[2026/10/13 15:57:21   INFO]              [World|GoblinCircus] Player 'PhantomPaint' joined world 'GoblinCircus' at location ( 4.423E+2  1.287E+2  2.217E+2) (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:21   WARN]              [World|GoblinCircus] Task took 46ms 793us 900ns ns: java.util.concurrent.CompletableFuture$UniApply@7034245b
+[2026/10/13 15:57:21   INFO]                 [WorldMapTracker] Started Generating Map!
+[2026/10/13 15:57:21 SEVERE]                      [ChunkStore] Took too long to post-load process chunk: 35ms 345us 600ns > TICK_STEP, Has GC Run: true, WorldChunk{x=12, z=7, flags=00000000000000000000000000000001}
+[2026/10/13 15:57:21   WARN]              [World|GoblinCircus] Task took 41ms 30us 700ns ns: java.util.concurrent.CompletableFuture$UniApply@1ed2f07f
+[2026/10/13 15:57:23 SEVERE]                      [ChunkStore] Took too long to post-load process chunk: 240ms 126us 100ns > TICK_STEP, Has GC Run: false, WorldChunk{x=14, z=4, flags=00000000000000000000000000000001}
+[2026/10/13 15:57:23   WARN]              [World|GoblinCircus] Task took 240ms 508us 600ns ns: java.util.concurrent.CompletableFuture$UniApply@3c7f90bc
+[2026/10/13 15:57:23   WARN]              [World|GoblinCircus] Task took 99ms 791us ns: java.util.concurrent.CompletableFuture$AsyncSupply@21d84dd7
+[2026/10/13 15:57:23   WARN]              [World|GoblinCircus] Task took 82ms 530us 400ns ns: java.util.concurrent.CompletableFuture$AsyncSupply@2bcb0434
+[2026/10/13 15:57:24   WARN]              [World|GoblinCircus] Task took 37ms 548us 600ns ns: java.util.concurrent.CompletableFuture$UniCompose@c3b6190
+[2026/10/13 15:57:25   WARN]              [World|GoblinCircus] Task took 35ms 40us 900ns ns: java.util.concurrent.CompletableFuture$UniWhenComplete@6059ef48
+[2026/10/13 15:57:26   WARN]              [SpawnMarkerSystems] Connection with NPC from marker at ( 3.223E+2  3.400E+1  2.207E+2) lost due to being invalid/already unloaded
+[2026/10/13 15:57:26   WARN]                      [Spawning|P] Marker Goblin_Scrapper (894628ed-3cf6-3b8e-8fb7-f5d84927b081) at 474.1495132446289/69.6944808959961/113.10278701782227 attempted to spawn NPC 'Goblin_Scrapper' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:26   WARN]                      [Spawning|P] Marker Goblin_Scrapper (894628ed-3cf6-3b8e-8fb7-f5d84927b081) at 474.1495132446289/69.6944808959961/113.10278701782227 failed after repeated spawning failures of NPC Goblin_Scrapper with reason: NO_ROOM
+[2026/10/13 15:57:29   WARN]              [SpawnMarkerSystems] Connection with NPC from marker at ( 2.563E+2  3.400E+1  2.177E+2) lost due to being invalid/already unloaded
+[2026/10/13 15:57:29   INFO]   [PrefabPathSystems$AddOrRemove] Migrating path marker from path Z1T1~1 to use new UUID 718d6b16-0feb-364a-aaa3-ae216bdeefa4
+[2026/10/13 15:57:30   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da1
+[2026/10/13 15:57:31   WARN]                      [Spawning|P] Marker Skeleton_Fighter (cd5b34fa-d377-3005-8346-332e9b7b8533) at 578.1596091064453/89.0000991821289/94.83969482421912 attempted to spawn NPC 'Skeleton_Fighter' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:31   WARN]                      [Spawning|P] Marker Skeleton_Fighter (cd5b34fa-d377-3005-8346-332e9b7b8533) at 578.1596091064453/89.0000991821289/94.83969482421912 failed after repeated spawning failures of NPC Skeleton_Fighter with reason: NO_ROOM
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Archer_Patrol (ed33a011-600c-360d-826c-88d908439294) at 623.1840657226563/93.0/93.93823430175786 attempted to spawn NPC 'Skeleton_Archer_Patrol' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Archer_Patrol (ed33a011-600c-360d-826c-88d908439294) at 623.1840657226563/93.0/93.93823430175786 failed after repeated spawning failures of NPC Skeleton_Archer_Patrol with reason: NO_ROOM
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Fighter (31ce6931-9566-3d76-bb16-f558df893a5f) at 597.7633819580078/38.000099182128906/66.72421264648438 attempted to spawn NPC 'Skeleton_Incandescent_Fighter' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Fighter (31ce6931-9566-3d76-bb16-f558df893a5f) at 597.7633819580078/38.000099182128906/66.72421264648438 failed after repeated spawning failures of NPC Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Fighter (6fd6e8b7-cb2e-3ca3-adf0-8b5ebe16f079) at 288.8525538444519/35.0/373.3782539367676 attempted to spawn NPC 'Skeleton_Incandescent_Fighter' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Fighter (6fd6e8b7-cb2e-3ca3-adf0-8b5ebe16f079) at 288.8525538444519/35.0/373.3782539367676 failed after repeated spawning failures of NPC Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Golem_Firesteel (cfd46c7c-fa2e-30f4-8d01-3f18b456517a) at 517.5942376953121/36.81916809082031/402.0809631103516 attempted to spawn NPC 'Golem_Firesteel' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Golem_Firesteel (cfd46c7c-fa2e-30f4-8d01-3f18b456517a) at 517.5942376953121/36.81916809082031/402.0809631103516 failed after repeated spawning failures of NPC Golem_Firesteel with reason: NO_ROOM
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Head (ac7c71a5-5dfe-3f9d-85f9-5af9f3e7980b) at 613.0963678359985/31.0/113.9834213256836 attempted to spawn NPC 'Skeleton_Incandescent_Head' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:34   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Head (ac7c71a5-5dfe-3f9d-85f9-5af9f3e7980b) at 613.0963678359985/31.0/113.9834213256836 failed after repeated spawning failures of NPC Skeleton_Incandescent_Head with reason: NO_ROOM
+[2026/10/13 15:57:34   WARN]              [SpawnMarkerSystems] Connection with NPC from marker at ( 4.991E+2  3.100E+1  9.834E-1) lost due to being invalid/already unloaded
+[2026/10/13 15:57:38   WARN]              [World|GoblinCircus] Task took 70ms 535us 800ns ns: com.hypixel.hytale.server.core.io.handlers.game.GamePacketHandler$$Lambda/0x00000000843cd000@aa26d2
+[2026/10/13 15:57:38   WARN]                          [Hytale] Failed to validate asset!
+ExtraInfo
+Key: Plugin.Instance.Discovery.Major
+Results:
+	WARNING: This field is deprecated and will be removed in the future!
+
+[2026/10/13 15:57:38   INFO]                     [Instances|P] Copying instance files for Defaults/CreativeHub to world instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a
+[2026/10/13 15:57:38   INFO]                     [Instances|P] Completed instance files for Defaults/CreativeHub to world instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a in 69ms 486us 300ns
+[2026/10/13 15:57:38   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Loading world 'instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a' with generator type: 'HytaleWorldGenProvider{name='Instance_Creative_Hub', version=0.0.0, path='null'}' and chunk storage: 'DefaultChunkStorageProvider{DEFAULT=IndexedStorageChunkStorageProvider{}}'...
+[2026/10/13 15:57:38   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Added world 'instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a' - Seed: 1618917989368, GameTime: 0001-01-01T16:50:44.090953998Z
+[2026/10/13 15:57:38   INFO]                  [WorldGenerator] Loading world-gen with the following asset-packs (highest priority first):
+[2026/10/13 15:57:38   INFO]                  [WorldGenerator] - [  0] Hytale:Hytale:0.0.0 - [E:\Games\Hytale\install\release\package\game\latest\Assets.zip]
+[2026/10/13 15:57:38   INFO]                    [PointsPlugin] Loaded 0 points for world 'instance-defaults-creativehub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a'
+[2026/10/13 15:57:38   INFO]            [TriggerVolumesPlugin] Loaded 0 trigger volumes and 0 groups for world 'instance-defaults-creativehub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a'
+[2026/10/13 15:57:38   WARN]              [World|GoblinCircus] Task took 172ms 78us 600ns ns: java.util.concurrent.CompletableFuture$UniAccept@69572f6
+[2026/10/13 15:57:38   INFO]                  [WorldGenerator] Set prefab-loader config: path=/Server/World/Instance_Creative_Hub, store=ASSETS
+[2026/10/13 15:57:38   INFO]                  [WorldGenerator] Initialized ChunkGenerator-2 executor
+[2026/10/13 15:57:38   INFO]                   [PlayerSystems] Removing player 'PhantomPaint (PhantomPaint)' from world 'GoblinCircus' (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:38   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint} Added future for ClientReady packet?
+[2026/10/13 15:57:38   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a|M] Initializing world map generator: com.hypixel.hytale.server.core.universe.world.worldmap.provider.DisabledWorldMapProvider$DisabledWorldMap@1e17d55c
+[2026/10/13 15:57:38   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Adding player 'PhantomPaint' to world 'instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a' at location Transform{position=( 5.104E+3  1.680E+2  4.982E+3), rotation=Rotation3f{x=0.0, y=1.5707964, z=0.0}} (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:38   INFO]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Sent com.hypixel.hytale.protocol.packets.player.JoinWorld@8ca28d53
+[2026/10/13 15:57:38   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a|M] Generating Points of Interest...
+[2026/10/13 15:57:38   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a|M] Finished Generating Points of Interest!
+[2026/10/13 15:57:39   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da7
+[2026/10/13 15:57:39   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Player 'PhantomPaint' joined world 'instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a' at location ( 5.104E+3  1.680E+2  4.982E+3) (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:39   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da1
+[2026/10/13 15:57:46   INFO]                  [CommandManager] PhantomPaint executed command: tp world GoblinCircus
+[2026/10/13 15:57:46   INFO]                   [PlayerSystems] Removing player 'PhantomPaint (PhantomPaint)' from world 'instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a' (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:46   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint} Added future for ClientReady packet?
+[2026/10/13 15:57:46   INFO]              [World|GoblinCircus] Adding player 'PhantomPaint' to world 'GoblinCircus' at location Transform{position=( 4.345E+2  1.220E+2  2.225E+2), rotation=Rotation3f{x=0.0, y=4.712389, z=0.0}} (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:46   INFO]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Sent com.hypixel.hytale.protocol.packets.player.JoinWorld@5511b4f5
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Removing individual world: instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Stopping world instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Stopping background threads...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Removing players...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Waiting for loading chunks...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Shutting down stores...
+-=|{"MessageId": "client.gameLoadingView.status.savingWorld", "Params": {"name": "instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a"}}|0.0
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Shutting down chunk generator...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Saving Chunks...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Queuing Chunks...
+[2026/10/13 15:57:46   INFO]                  [WorldGenerator] ChunkGenerator-2 executor shutdown complete
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Saving All Chunks...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Waiting for Saving Chunks...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Done Saving Chunks!
+[2026/10/13 15:57:46   INFO]             [PlayerSavingSystems] Disconnecting Players...
+[2026/10/13 15:57:46   INFO] [World|instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a] Saving Config...
+-=|{"MessageId": "client.gameLoadingView.status.closingWorld", "Params": {"name": "instance-Defaults-CreativeHub-cc7b1f4d-7b3f-4305-ab4f-2359918d3e5a"}}|0.0
+[2026/10/13 15:57:46   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da7
+[2026/10/13 15:57:46   INFO]              [World|GoblinCircus] Player 'PhantomPaint' joined world 'GoblinCircus' at location ( 4.345E+2  1.220E+2  2.225E+2) (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 15:57:47   WARN]                      [Spawning|P] Failed to restore stored spawn marker member! Holder{archetype=Archetype{componentTypes=[null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.physics.component.PhysicsValues, index=5}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.physics.component.Velocity, index=6}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.BoundingBox, index=7}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.Dirty, index=9}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.TransformComponent, index=10}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.HeadRotation, index=11}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.UUIDComponent, index=12}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.tracker.NetworkId, index=14}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.effect.EffectControllerComponent, index=16}, null, null, null, null, null, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.MovementAudioComponent, index=29}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.PositionDataComponent, index=30}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.ActiveAnimationComponent, index=31}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.CachedStatsComponent, index=32}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.BreathingComponent, index=33}, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.SnapshotBuffer, index=38}, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.movement.MovementStatesComponent, index=45}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.ModelComponent, index=46}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.ModelRotateBoundingBoxComponent, index=47}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.PersistentModel, index=48}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.NPCMarkerComponent, index=50}, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.DisplayNameComponent, index=54}, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.WorldGenId, index=62}, null, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.prefab.PrefabCopyableComponent, index=71}, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.damage.DamageDataComponent, index=77}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.reference.PersistentRefCount, index=79}, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.inventory.InventoryComponent$Storage, index=87}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.inventory.InventoryComponent$Armor, index=88}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.inventory.InventoryComponent$Hotbar, index=89}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.inventory.InventoryComponent$Utility, index=90}, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entity.component.HealthRegenState, index=96}, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.entity.InteractionManager, index=102}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.interaction.Interactions, index=104}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.interaction.interaction.config.client.ChainingInteraction$Data, index=106}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entitystats.EntityStatMap, index=131}, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.core.modules.entityui.UIComponentList, index=138}, null, null, null, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.entities.NPCEntity, index=149}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.blackboard.view.combat.CombatViewSystems$CombatData, index=150}, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.components.messaging.BeaconSupport, index=152}, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.blackboard.BlackboardSubscription, index=157}, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.components.Timers, index=160}, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.CombatSupport, index=163}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.StateSupport, index=164}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.MarkedEntitySupport, index=165}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.WorldSupport, index=166}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.EntitySupport, index=167}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.MotionContextSupport, index=168}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.DisplayNameSupport, index=169}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.PlayerTaskSupport, index=170}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.PositionCache, index=171}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.DebugSupport, index=172}, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.role.support.FlagsComponent, index=173}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, ComponentType{registry=class com.hypixel.hytale.component.ComponentRegistry@1791045777, typeClass=class com.hypixel.hytale.server.npc.components.SpawnMarkerReference, index=209}]}, components=[null, null, null, null, null, PhysicsValues{mass=1.0, dragCoefficient=0.5, invertedGravity=false}, com.hypixel.hytale.server.core.modules.physics.component.Velocity@7b758eb3, com.hypixel.hytale.server.core.modules.entity.component.BoundingBox@2970f978, null, com.hypixel.hytale.server.core.entity.Dirty@40a72846, com.hypixel.hytale.server.core.modules.entity.component.TransformComponent@1f5ba5fe, com.hypixel.hytale.server.core.modules.entity.component.HeadRotation@488ca0b0, UUIDComponent{uuid=9a88e9b8-8b38-33ce-af33-026a93beeea6}, null, com.hypixel.hytale.server.core.modules.entity.tracker.NetworkId@66192be0, null, EntityEffectController{activeEffects={}}, null, null, null, null, null, null, null, null, null, null, null, null, com.hypixel.hytale.server.core.modules.entity.component.MovementAudioComponent@1f85da7d, com.hypixel.hytale.server.core.modules.entity.component.PositionDataComponent@5db3f826, com.hypixel.hytale.server.core.modules.entity.component.ActiveAnimationComponent@70175a00, com.hypixel.hytale.server.core.modules.entity.component.CachedStatsComponent@5ffe39c9, com.hypixel.hytale.server.core.modules.entity.component.BreathingComponent@6e994679, null, null, null, null, com.hypixel.hytale.server.core.modules.entity.component.SnapshotBuffer@2c29e144, null, null, null, null, null, null, com.hypixel.hytale.server.core.entity.movement.MovementStatesComponent@6624799b, com.hypixel.hytale.server.core.modules.entity.component.ModelComponent@483a24e7, com.hypixel.hytale.server.core.modules.entity.component.ModelRotateBoundingBoxComponent@6cb41917, com.hypixel.hytale.server.core.modules.entity.component.PersistentModel@ff4e604, null, com.hypixel.hytale.server.core.modules.entity.component.NPCMarkerComponent@4ad9bec0, null, null, null, com.hypixel.hytale.server.core.modules.entity.component.DisplayNameComponent@53ddb660, null, null, null, null, null, null, null, com.hypixel.hytale.server.core.modules.entity.component.WorldGenId@1fed61ad, null, null, null, null, null, null, null, null, com.hypixel.hytale.server.core.prefab.PrefabCopyableComponent@37016092, null, null, null, null, null, com.hypixel.hytale.server.core.entity.damage.DamageDataComponent@30a9f70c, null, com.hypixel.hytale.server.core.entity.reference.PersistentRefCount@e7939cf, null, null, null, null, null, null, null, com.hypixel.hytale.server.core.inventory.InventoryComponent$Storage@7aedd1a4, com.hypixel.hytale.server.core.inventory.InventoryComponent$Armor@46d42b9b, com.hypixel.hytale.server.core.inventory.InventoryComponent$Hotbar@393aa5da, com.hypixel.hytale.server.core.inventory.InventoryComponent$Utility@7e4a4473, null, null, null, null, null, com.hypixel.hytale.server.core.modules.entity.component.HealthRegenState@6a3edaef, null, null, null, null, null, com.hypixel.hytale.server.core.entity.InteractionManager@d51acc0, null, com.hypixel.hytale.server.core.modules.interaction.Interactions@6129dcc5, null, com.hypixel.hytale.server.core.modules.interaction.interaction.config.client.ChainingInteraction$Data@4d6c754f, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, EntityStatMap{unknown={Unknown=>EntityStatValue{id='Unknown', index=0, value=0.0, min=0.0, max=0.0, regeneratingValues=null, modifiers=null}}, values=[EntityStatValue{id='Unknown', index=0, value=0.0, min=0.0, max=0.0, regeneratingValues=null, modifiers=null}, EntityStatValue{id='StaminaRegenDelay', index=1, value=0.0, min=-60.0, max=0.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=0.1, regenType=ADDITIVE, conditions=[GlidingCondition{} Condition{inverse=true}, GlidingCondition{} Condition{inverse=true}], modifiers=null}, remainingUntilRegen=0.0}], modifiers=null}, EntityStatValue{id='Stamina', index=2, value=10.0, min=-4.0, max=10.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=0.3, regenType=ADDITIVE, conditions=[StatCondition{amount=0.0, comparison=GTE} EntityStatBoundCondition{unknownStat='StaminaRegenDelay', stat=-2147483648} Condition{inverse=false}, StatCondition{amount=0.0, comparison=GTE} EntityStatBoundCondition{unknownStat='Stamina', stat=-2147483648} Condition{inverse=false}, WieldingCondition{} Condition{inverse=true}, SprintingCondition{} Condition{inverse=true}, GlidingCondition{} Condition{inverse=true}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=1.0, regenType=PERCENTAGE, conditions=[AliveCondition{} Condition{inverse=false}, CheckPlayerGameModeCondition{gameModeToCheck=Creative, inverse=false}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=0.3, regenType=ADDITIVE, conditions=[StatCondition{amount=0.0, comparison=GTE} EntityStatBoundCondition{unknownStat='StaminaRegenDelay', stat=-2147483648} Condition{inverse=false}, StatCondition{amount=0.0, comparison=LT} EntityStatBoundCondition{unknownStat='Stamina', stat=-2147483648} Condition{inverse=false}, WieldingCondition{} Condition{inverse=true}, SprintingCondition{} Condition{inverse=true}, GlidingCondition{} Condition{inverse=true}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=-0.1, regenType=ADDITIVE, conditions=[SprintingCondition{} Condition{inverse=false}], modifiers=null}, remainingUntilRegen=-0.78203344}, RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=-0.1, regenType=ADDITIVE, conditions=[GlidingCondition{} Condition{inverse=false}], modifiers=null}, remainingUntilRegen=-0.78203344}], modifiers=null}, EntityStatValue{id='SignatureEnergy', index=3, value=0.0, min=0.0, max=0.0, regeneratingValues=null, modifiers=null}, EntityStatValue{id='SignatureCharges', index=4, value=0.0, min=0.0, max=100.0, regeneratingValues=null, modifiers=null}, EntityStatValue{id='Oxygen', index=5, value=100.0, min=0.0, max=100.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=25.0, regenType=ADDITIVE, conditions=[AliveCondition{} Condition{inverse=false}, SuffocatingCondition{} Condition{inverse=true}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=1.0, regenType=PERCENTAGE, conditions=[AliveCondition{} Condition{inverse=false}, CheckPlayerGameModeCondition{gameModeToCheck=Creative, inverse=false}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=-3.0, regenType=ADDITIVE, conditions=[AliveCondition{} Condition{inverse=false}, SuffocatingCondition{} Condition{inverse=false}], modifiers=null}, remainingUntilRegen=0.4179701}], modifiers=null}, EntityStatValue{id='Mana', index=6, value=100.0, min=0.0, max=100.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.3, amount=1.0, regenType=ADDITIVE, conditions=[AliveCondition{} Condition{inverse=false}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=1.0, regenType=PERCENTAGE, conditions=[AliveCondition{} Condition{inverse=false}, CheckPlayerGameModeCondition{gameModeToCheck=Creative, inverse=false}], modifiers=null}, remainingUntilRegen=0.0}], modifiers=null}, EntityStatValue{id='MagicCharges', index=7, value=0.0, min=0.0, max=0.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=2.0, amount=1.0, regenType=ADDITIVE, conditions=null, modifiers=null}, remainingUntilRegen=0.0}], modifiers=null}, EntityStatValue{id='Immunity', index=8, value=0.0, min=0.0, max=100.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=-0.1, regenType=ADDITIVE, conditions=null, modifiers=null}, remainingUntilRegen=0.0}], modifiers=null}, EntityStatValue{id='Health', index=9, value=30.0, min=0.0, max=30.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=0.05, regenType=PERCENTAGE, conditions=[AliveCondition{} Condition{inverse=false}, IsPlayerCondition{} Condition{inverse=true}, NoDamageTakenCondition{delay=PT15S} Condition{inverse=false}, RegenHealthCondition{} Condition{inverse=false}], modifiers=null}, remainingUntilRegen=0.0}, RegeneratingValue{regenerating=Regenerating{interval=0.5, amount=1.0, regenType=PERCENTAGE, conditions=[AliveCondition{} Condition{inverse=false}, CheckPlayerGameModeCondition{gameModeToCheck=Creative, inverse=false}], modifiers=null}, remainingUntilRegen=0.0}], modifiers={NPC_Max=>StaticModifier{calculationType=ADDITIVE, amount=-70.0} Modifier{target=MAX}}}, EntityStatValue{id='GlidingActive', index=10, value=0.0, min=0.0, max=1.0, regeneratingValues=[RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=1.0, regenType=ADDITIVE, conditions=[GlidingCondition{} Condition{inverse=false}], modifiers=null}, remainingUntilRegen=-0.78203344}, RegeneratingValue{regenerating=Regenerating{interval=0.1, amount=-1.0, regenType=ADDITIVE, conditions=[GlidingCondition{} Condition{inverse=true}], modifiers=null}, remainingUntilRegen=0.0}], modifiers=null}, EntityStatValue{id='DeployablePreview', index=11, value=0.0, min=0.0, max=1.0, regeneratingValues=null, modifiers=null}, EntityStatValue{id='Ammo', index=12, value=0.0, min=0.0, max=0.0, regeneratingValues=null, modifiers=null}]}, null, null, null, null, null, null, com.hypixel.hytale.server.core.modules.entityui.UIComponentList@7a66595e, null, null, null, null, null, null, null, null, null, null, NPCEntity{role=com.hypixel.hytale.server.npc.role.Role@159ff1e7, spawnRoleIndex=-2147483648, leashPoint=( 4.715E+2  6.800E+1  9.650E+1), leashHeading=3.7678673, leashPitch=0.0, environmentIndex=-2147483648} LivingEntity{Entity{id=-1, uuid=9a88e9b8-8b38-33ce-af33-026a93beeea6, reference='null', world=null, displayName='null', wasRemoved='false', removedBy='null'}}, com.hypixel.hytale.server.npc.blackboard.view.combat.CombatViewSystems$CombatData@351c351c, null, com.hypixel.hytale.server.npc.components.messaging.BeaconSupport@143d5f69, null, null, null, null, com.hypixel.hytale.server.npc.blackboard.BlackboardSubscription@1977dbd1, null, null, com.hypixel.hytale.server.npc.components.Timers@21261261, null, null, com.hypixel.hytale.server.npc.role.support.CombatSupport@7546678c, com.hypixel.hytale.server.npc.role.support.StateSupport@bfeb85a, com.hypixel.hytale.server.npc.role.support.MarkedEntitySupport@2cf043a7, com.hypixel.hytale.server.npc.role.support.WorldSupport@3dd4f942, com.hypixel.hytale.server.npc.role.support.EntitySupport@7be88373, com.hypixel.hytale.server.npc.role.support.MotionContextSupport@52ad83c, com.hypixel.hytale.server.npc.role.support.DisplayNameSupport@2be95e45, com.hypixel.hytale.server.npc.role.support.PlayerTaskSupport@316dbc93, com.hypixel.hytale.server.npc.role.support.PositionCache@ea152d6, com.hypixel.hytale.server.npc.role.support.DebugSupport@5d998006, com.hypixel.hytale.server.npc.role.support.FlagsComponent@3c63f686, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, com.hypixel.hytale.server.npc.components.SpawnMarkerReference@60b65cbd]}
+[2026/10/13 15:57:49 SEVERE]                      [ChunkStore] Took too long to post-load process chunk: 37ms 218us 800ns > TICK_STEP, Has GC Run: true, WorldChunk{x=11, z=12, flags=00000000000000000000000000000010}
+[2026/10/13 15:57:49   WARN]              [World|GoblinCircus] Task took 38ms 83us 100ns ns: java.util.concurrent.CompletableFuture$UniApply@52891208
+[2026/10/13 15:57:49   WARN]              [World|GoblinCircus] Task took 40ms 515us 400ns ns: java.util.concurrent.CompletableFuture$AsyncSupply@235d9e7d
+[2026/10/13 15:57:51   WARN]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da1
+[2026/10/13 15:57:51   WARN]                      [Spawning|P] Marker Skeleton_Fighter (16048ca1-fddb-30d4-87b8-dcd768ff63e5) at 607.0831298828125/94.0/29.7879638671875 attempted to spawn NPC 'Skeleton_Fighter' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 15:57:51   WARN]                      [Spawning|P] Marker Skeleton_Fighter (16048ca1-fddb-30d4-87b8-dcd768ff63e5) at 607.0831298828125/94.0/29.7879638671875 failed after repeated spawning failures of NPC Skeleton_Fighter with reason: NO_ROOM
+[2026/10/13 15:58:01 SEVERE]                      [ChunkStore] Took too long to post-load process chunk: 53ms 507us 200ns > TICK_STEP, Has GC Run: true, WorldChunk{x=31, z=13, flags=00000000000000000000000000000001}
+[2026/10/13 15:58:01   WARN]              [World|GoblinCircus] Task took 54ms 20us 500ns ns: java.util.concurrent.CompletableFuture$UniApply@5cf55ce3
+[2026/10/13 15:58:04 SEVERE]              [World|GoblinCircus] Took too long to run pre-load process hook for chunk: 35ms 310us 500ns > TICK_STEP, Has GC Run: true, WorldChunk{x=5, z=25, flags=00000000000000000000000000000001}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x00000000832ca000@5f6dd89c
+[2026/10/13 15:58:09   WARN]                   [World|default] Task took 43ms 775us 900ns ns: java.util.concurrent.CompletableFuture$AsyncSupply@397f1761
+[2026/10/13 15:58:09   WARN] [World|prefabEditor-PhantomPaint] Task took 45ms 676us 800ns ns: java.util.concurrent.CompletableFuture$AsyncSupply@4ad9b639
+[2026/10/13 15:58:20   WARN]                      [Spawning|P] NPCEntity despawning due to lost marker: Ref{store=class com.hypixel.hytale.component.Store@1020107233, index=440}
+[2026/10/13 16:04:38   WARN]                      [Spawning|P] Marker Goblin_Lobber (c32fdf49-770e-35e5-af99-f6ca36db9bc6) at 613.2440185546875/69.0/355.34925842285156 attempted to spawn NPC 'Goblin_Lobber' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 16:04:38   WARN]                      [Spawning|P] Marker Goblin_Lobber (c32fdf49-770e-35e5-af99-f6ca36db9bc6) at 613.2440185546875/69.0/355.34925842285156 failed after repeated spawning failures of NPC Goblin_Lobber with reason: NO_ROOM
+[2026/10/13 16:04:44   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Mage (039f6dab-c964-34f9-b125-14d5e696ee30) at 458.1457061767578/41.099143981933594/472.361328125 attempted to spawn NPC 'Skeleton_Incandescent_Mage' but could not fit: FAIL_NO_POSITION (Result: OK)
+[2026/10/13 16:04:44   WARN]                      [Spawning|P] Marker Skeleton_Incandescent_Mage (039f6dab-c964-34f9-b125-14d5e696ee30) at 458.1457061767578/41.099143981933594/472.361328125 failed after repeated spawning failures of NPC Skeleton_Incandescent_Mage with reason: NO_ROOM
+[2026/10/13 16:06:18   INFO]                          [Hytale] 1a42b4e6-61f5-4373-b8ad-5c16367a004b - PhantomPaint at /127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000) left with reason: Disconnect - PlayerLeave
+[2026/10/13 16:06:19   INFO]                  [CommandManager] Console executed command: stop
+Shutting down!
+[2026/10/13 16:06:19   INFO]                    [HytaleServer] Shutdown triggered!!!
+[2026/10/13 16:06:19   INFO]                    [HytaleServer] Shutting down... 0  'null'
+[2026/10/13 16:06:19   INFO]                 [TelemetryModule] Sending server stop telemetry (reason: normal)...
+[2026/10/13 16:06:19   INFO]                [QuicheConnection] Connection 21a72869742a31d3e5fcade81a47540500000000 closed by peer: application error code 0
+[2026/10/13 16:06:19   INFO]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint} was closed.
+[2026/10/13 16:06:19   INFO]                      [Universe|P] Removing player 'PhantomPaint' (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 16:06:19   INFO]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint} was closed.
+[2026/10/13 16:06:19   INFO]                          [Hytale] {Playing(/127.0.0.1:60547(21a72869742a31d3e5fcade81a47540500000000)), 1a42b4e6-61f5-4373-b8ad-5c16367a004b, PhantomPaint} was closed.
+[2026/10/13 16:06:19   INFO]                    [Objectives|P] Checking objectives for disconnecting player 'PhantomPaint' (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 16:06:19   INFO]                    [Objectives|P] Processing 0 active objectives for 'PhantomPaint' (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 16:06:19   INFO]                   [PlayerSystems] Removing player 'PhantomPaint (PhantomPaint)' from world 'GoblinCircus' (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/10/13 16:06:19   INFO]                      [Universe|P] No players left on singleplayer server shutting down!
+[2026/10/13 16:06:19   INFO]                  [QuicheListener] Reader channel closed, shutting down
+[2026/10/13 16:06:19   INFO]                 [ServerManager|P] Closed listener QuicheListener{address=/[0:0:0:0:0:0:0:1]:58757, channel=sun.nio.ch.DatagramChannelImpl@16e8cd53} and took 20ms 466us 200ns
+[2026/10/13 16:06:19   INFO]                  [QuicheListener] Reader channel closed, shutting down
+[2026/10/13 16:06:19   INFO]                 [ServerManager|P] Closed listener QuicheListener{address=/127.0.0.1:58757, channel=sun.nio.ch.DatagramChannelImpl@67b467bb} and took 7ms 63us 600ns
+[2026/10/13 16:06:19   INFO]                   [World|default] Stopping world default...
+[2026/10/13 16:06:19   INFO]                   [World|default] Stopping background threads...
+[2026/10/13 16:06:19   INFO]                   [World|default] Removing players...
+[2026/10/13 16:06:19   INFO]                   [World|default] Waiting for loading chunks...
+[2026/10/13 16:06:19   INFO]                   [World|default] Shutting down stores...
+-=|{"MessageId": "client.gameLoadingView.status.savingWorld", "Params": {"name": "default"}}|0.0
+[2026/10/13 16:06:19   INFO]                   [World|default] Shutting down chunk generator...
+[2026/10/13 16:06:19   INFO]                  [WorldGenerator] ChunkGenerator-1 executor shutdown complete
+[2026/10/13 16:06:19   INFO]                   [World|default] Saving Chunks...
+[2026/10/13 16:06:19   INFO]                   [World|default] Queuing Chunks...
+[2026/10/13 16:06:19   INFO]                   [World|default] Saving All Chunks...
+[2026/10/13 16:06:19   INFO]                   [World|default] Waiting for Saving Chunks...
+[2026/10/13 16:06:19   INFO]                   [World|default] Done Saving Chunks!
+[2026/10/13 16:06:19   INFO]             [PlayerSavingSystems] Saving Players...
+[2026/10/13 16:06:19   INFO]                   [World|default] Saving Config...
+[2026/10/13 16:06:19   INFO]                   [World|default] Removing individual world: default
+[2026/10/13 16:06:19   INFO]                      [Universe|P] Removing world exceptionally: default
+-=|{"MessageId": "client.gameLoadingView.status.closingWorld", "Params": {"name": "default"}}|0.0
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Stopping world prefabEditor-PhantomPaint...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Stopping background threads...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Removing players...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Waiting for loading chunks...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Shutting down stores...
+-=|{"MessageId": "client.gameLoadingView.status.savingWorld", "Params": {"name": "prefabEditor-PhantomPaint"}}|0.0
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Shutting down chunk generator...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Saving Chunks...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Queuing Chunks...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Saving All Chunks...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Waiting for Saving Chunks...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Done Saving Chunks!
+[2026/10/13 16:06:19   INFO]             [PlayerSavingSystems] Saving Players...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Saving Config...
+[2026/10/13 16:06:19   INFO] [World|prefabEditor-PhantomPaint] Removing individual world: prefabEditor-PhantomPaint
+[2026/10/13 16:06:19   INFO]                      [Universe|P] Removing world exceptionally: prefabEditor-PhantomPaint
+-=|{"MessageId": "client.gameLoadingView.status.closingWorld", "Params": {"name": "prefabEditor-PhantomPaint"}}|0.0
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Stopping world GoblinCircus...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Stopping background threads...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Removing players...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Waiting for loading chunks...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Shutting down stores...
+-=|{"MessageId": "client.gameLoadingView.status.savingWorld", "Params": {"name": "GoblinCircus"}}|0.0
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Shutting down chunk generator...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Saving Chunks...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Queuing Chunks...
+[2026/10/13 16:06:19   INFO]                  [WorldGenerator] ChunkGenerator-0 executor shutdown complete
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Saving All Chunks...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Waiting for Saving Chunks...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Done Saving Chunks!
+[2026/10/13 16:06:19   INFO]             [PlayerSavingSystems] Saving Players...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Saving Config...
+[2026/10/13 16:06:19   INFO]              [World|GoblinCircus] Removing individual world: GoblinCircus
+[2026/10/13 16:06:19   INFO]                      [Universe|P] Removing world exceptionally: GoblinCircus
+-=|{"MessageId": "client.gameLoadingView.status.closingWorld", "Params": {"name": "GoblinCircus"}}|0.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Saving plugins config...
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|1.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:GoblinLab
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|2.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Portals
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|3.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPCObjectives
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|4.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CompanionBlockSpawner
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|5.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Beds
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|6.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:AugmentBlocks
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|7.000000000000001
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:TriggerVolumes
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|8.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Spawning
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|8.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPCShop
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|9.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPCReputation
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|10.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPCKnockbackDebug
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|11.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPCEditor
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|12.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPCCombatActionEvaluator
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|13.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Mounts
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|14.000000000000002
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Memories
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|15.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:GameFlags
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|16.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Flock
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|17.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:EncounterManager
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|18.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Abilities
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|19.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:NPC
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|20.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Camera
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|21.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:DamageModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|22.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CreativeHub
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|23.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Wilderness
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|24.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:StaminaModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|25.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ShopReputation
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|25.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Points
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|26.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Path
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|27.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ObjectiveShop
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|28.000000000000004
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ObjectiveReputation
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|28.999999999999996
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Instances
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|30.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Farming
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|31.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:EntityUIModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|32.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockSpawner
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|33.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:WorldEvents
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|34.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Teleporter
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|35.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:SingleplayerModule
+[2026/10/13 16:06:19   INFO]                          [Shop|P] Barter shop state saved
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|36.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Shop
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|37.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Objectives
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|38.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Locate
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|39.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:EntityStatsModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|40.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Deployables
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|41.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Crafting
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|42.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ConnectedBlocksModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|42.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BuilderTools
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|43.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockPhysics
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|44.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:WorldGen
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|45.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Weather
+[2026/10/13 16:06:19   INFO]                   [VoiceModule|P] [Voice] VoiceModule shutting down
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|46.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:VoiceModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|47.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Teleport
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|48.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Stash
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|49.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Reputation
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|50.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ReactiveBlocks
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|51.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ProjectileModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|52.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:PrefabSpawnerModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|53.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Parkour
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|54.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:InteractionModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|55.00000000000001
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Fluid
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|56.00000000000001
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:FallingBlocks
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|56.99999999999999
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Beam
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|57.99999999999999
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Audio
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|57.99999999999999
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:AssetEditor
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|59.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Ambience
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|60.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:TelemetryModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|61.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ServerPlayerListModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|62.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:RandomTick
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|63.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Model
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|64.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:I18nModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|65.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:FlyCameraModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|66.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:EntityModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|67.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CommonAssetModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|68.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockTypeModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|69.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockTick
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|70.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|71.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockHealthModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|72.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockAnimationModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|73.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:AccessControlModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|74.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:WorldLocationCondition
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|75.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:UpdateModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|75.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Universe
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|76.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:UIModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|77.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:TimeModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|78.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:TagSet
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|79.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:SprintForce
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|80.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:SplitVelocity
+[2026/10/13 16:06:19   INFO]                 [ServerManager|P] Finished shutting down ServerManager...
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|81.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ServerManager
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|82.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:SafetyRoll
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|83.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Rewards
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|84.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:PermissionsModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|85.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:MigrationModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|86.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:Mantling
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|87.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:LiveConfigModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|88.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:LegacyModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|89.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:LANDiscovery
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|90.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ItemModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|91.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:HytaleGenerator
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|92.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:DiscoveryModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|92.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:DebugPlugin
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|93.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CrouchSlide
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|94.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CosmeticsModule
+[2026/10/13 16:06:19   INFO]                 [ConsoleModule|P] Restoring terminal...
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|95.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:ConsoleModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|96.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CommandMacro
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|97.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:CollisionModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|98.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:BlockSetModule
+[2026/10/13 16:06:19   INFO]               [PathWatcherThread] Stopped polling for changes in assets. Server will need to be rebooted to load changes!
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|99.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:AssetModule
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|100.0
+[2026/10/13 16:06:19   INFO]                   [PluginManager] Shut down plugin Hytale:AnchorActionModule
+[2026/10/13 16:06:19   INFO]            [SessionServiceClient] Terminating game session...
+[2026/10/13 16:06:19   INFO]            [SessionServiceClient] Game session terminated
+[2026/10/13 16:06:19   INFO]                    [HytaleServer] Saving config...
+[2026/10/13 16:06:19   INFO]                    [HytaleServer] Shutdown completed!
